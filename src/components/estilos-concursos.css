@@ -1,0 +1,44 @@
+
+.contest-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contest-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.date {
+    font-size: 2em;
+    text-align: center;
+    color: #009688;
+    margin-right: 20px;
+}
+
+.date .day {
+    font-size: 2.5em;
+}
+
+.date .month {
+    font-size: 1em;
+}
+
+.details h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.details p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #777;
+}
+
+.hr-concurso {
+    border: none;
+    margin: 20px 0;
+}

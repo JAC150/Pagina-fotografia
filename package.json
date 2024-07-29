@@ -8,10 +8,11 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "api":"json-server --watch src/api/db.json --port 4500"
+    "api": "json-server --watch src/api/db.json --port 4500"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "emailjs-com": "^3.2.0",
     "json-server": "^1.0.0-beta.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
