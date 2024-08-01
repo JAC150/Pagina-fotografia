@@ -4455,5 +4455,508 @@
       "puntuación": 4.5,
       "imagen": "../images/equipo/equipo30.jpeg"
     }
+  ],
+  "noticias": [
+    {
+        "id": 1,
+        "titulo": "La Fotografía en la Era Digital: Una Exposición que Explora la Revolución de la Imagen",
+        "fecha": "1 de octubre - 15 de noviembre de 2024",
+        "descripcion": "Este evento celebra la evolución de la fotografía en la era digital, mostrando cómo la tecnología ha transformado la forma en que capturamos y compartimos imágenes.",
+        "ubicacion": "Museo de Arte Moderno, Avenida Digital 7, Ciudad.",
+        "entrada": "10 €",
+        "hora_creacion": "2024-07-30T10:00:00Z",
+        "tema":"Digital"
+    },
+    {
+        "id": 2,
+        "titulo": "El Museo Nacional de Fotografía Anuncia \"La Magia de la Fotografía en Blanco y Negro\": Una Celebración de los Clásicos",
+        "fecha": "5 de octubre - 20 de noviembre de 2024",
+        "descripcion": "Una exposición que rinde homenaje a la fotografía en blanco y negro, destacando la elegancia y el impacto visual que este estilo clásico sigue ofreciendo en el arte fotográfico.",
+        "ubicacion": "Museo Nacional de Fotografía, Plaza de los Clásicos 3, Ciudad.",
+        "entrada": "12 €",
+        "hora_creacion": "2024-07-30T10:00:00Z",
+        "tema":"Blanco y Negro"
+    },
+    {
+        "id": 3,
+        "titulo": "Festival Internacional de Fotografía de Naturaleza en Río de Janeiro: Una Muestra de la Belleza Silvestre",
+        "fecha": "1 - 10 de diciembre de 2024",
+        "descripcion": "Un festival que celebra la belleza de la naturaleza a través de la fotografía, mostrando cómo los fotógrafos capturan la majestuosidad de los paisajes y la vida salvaje.",
+        "ubicacion": "Centro de Fotografía de la Naturaleza, Río de Janeiro.",
+        "entrada": "30 BRL",
+        "hora_creacion": "2024-07-30T10:00:00Z",
+        "tema":"Naturaleza"
+    },
+    {
+        "id": 4,
+        "titulo": "\"Enfoques Urbanos\": El Museo de Arte de la Ciudad Presenta una Muestra sobre la Vida en las Grandes Urbes",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Una exposición que explora la vida urbana a través de la fotografía, ofreciendo una visión profunda de la energía y la diversidad de las ciudades modernas.",
+        "ubicacion": "Museo de Arte de la Ciudad, Avenida de las Urbes 4, Ciudad.",
+        "entrada": "10 €",
+        "hora_creacion": "2024-07-29T10:00:00Z",
+        "tema":"Urbano"
+    },
+    {
+        "id": 5,
+        "titulo": "El Festival de Fotografía de Retratos en Londres Ofrece un Vistazo Intimo a la Diversidad Humana",
+        "fecha": "10 - 20 de noviembre de 2024",
+        "descripcion": "Un festival que se centra en el arte del retrato fotográfico, destacando la diversidad y la singularidad de las personas a través de imágenes que capturan su esencia y personalidad.",
+        "ubicacion": "Centro de Fotografía de Retratos, Londres.",
+        "entrada": "15 £",
+        "hora_creacion": "2024-07-27T10:00:00Z",
+        "tema":"Fotografía Moderna"
+    },
+    {
+        "id": 6,
+        "titulo": "La Galería de Arte Contemporáneo Anuncia \"Paisajes del Futuro\": Una Exposición que Imagina Nuevos Horizontes",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Este evento celebra la fotografía de paisajes con una mirada hacia el futuro, mostrando cómo los fotógrafos imaginan y representan escenarios innovadores y transformadores.",
+        "ubicacion": "Galería de Arte Contemporáneo, Plaza del Futuro 6, Ciudad.",
+        "entrada": "12 €",
+        "hora_creacion": "2024-07-27T10:00:00Z",
+         "tema":"Fotografía Moderna"
+    },
+    {
+        "id": 7,
+        "titulo": "\"Historias en Imágenes\": El Museo de Fotografía Documental Ofrece un Viaje Visual a Través de Narrativas Sociales",
+        "fecha": "5 - 30 de noviembre de 2024",
+        "descripcion": "Una exposición que utiliza la fotografía para contar historias profundas y personales sobre diversos aspectos de la vida social, ofreciendo una ventana a diferentes realidades y experiencias.",
+        "ubicacion": "Museo de Fotografía Documental, Calle de las Historias 5, Ciudad.",
+        "entrada": "10 €",
+        "hora_creacion": "2024-07-26T10:00:00Z",
+        "tema":"Documental"
+    },
+    {
+        "id": 8,
+        "titulo": "El Festival de Fotografía de Moda en Milán Destaca las Últimas Tendencias y Creatividad en el Diseño",
+        "fecha": "15 de octubre - 5 de noviembre de 2024",
+        "descripcion": "Un festival que celebra la fotografía de moda, mostrando las últimas tendencias y la creatividad en el diseño a través de imágenes impactantes y elegantes.",
+        "ubicacion": "Centro de Fotografía de Moda, Milán.",
+        "entrada": "20 €",
+        "hora_creacion": "2024-07-26T10:00:00Z",
+        "tema":"Moda"
+    },
+    {
+        "id": 9,
+        "titulo": "\"Aventuras en la Naturaleza\": El Museo de Fotografía de Aventura Presenta Imágenes de Exploraciones Exóticas",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Una exposición que captura la esencia de las aventuras y exploraciones en entornos naturales, mostrando cómo los fotógrafos documentan la emoción y la belleza de sus viajes.",
+        "ubicacion": "Museo de Fotografía de Aventura, Calle de las Exploraciones 8, Ciudad.",
+        "entrada": "12 €",
+        "hora_creacion": "2024-07-26T10:00:00Z",
+        "tema":"Naturaleza"
+    },
+    {
+        "id": 10,
+        "titulo": "El Centro de Fotografía de la Ciencia Anuncia \"Microscopio y Cámara\": Una Celebración de la Fotografía Científica",
+        "fecha": "10 - 30 de noviembre de 2024",
+        "descripcion": "Una muestra que explora la intersección entre la ciencia y la fotografía, destacando cómo la fotografía científica revela detalles fascinantes del mundo microscópico y más allá.",
+        "ubicacion": "Centro de Fotografía de la Ciencia, Ciudad.",
+        "entrada": "15 €",
+        "hora_creacion": "2024-07-26T10:00:00Z",
+        "tema":"Ciencia y Espacio"
+    },
+    {
+        "id": 11,
+        "titulo": "\"Exploraciones del Espacio\": El Museo de Fotografía Espacial Presenta Imágenes del Cosmos",
+        "fecha": "5 - 20 de noviembre de 2024",
+        "descripcion": "Una exposición que celebra la fotografía espacial, mostrando imágenes asombrosas del cosmos y revelando la belleza y el misterio del universo a través de la lente.",
+        "ubicacion": "Museo de Fotografía Espacial, Calle del Cosmos 7, Ciudad.",
+        "entrada": "20 €",
+        "hora_creacion": "2024-07-24T10:00:00Z",
+        "tema":"Ciencia y Espacio"
+    },
+    {
+        "id": 12,
+        "titulo": "El Festival Internacional de Fotografía en Barcelona Ofrece una Vitrina Global de Innovación Visual",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Un festival que destaca las últimas innovaciones en el arte fotográfico, reuniendo a fotógrafos de todo el mundo para mostrar y compartir sus trabajos más recientes y audaces.",
+        "ubicacion": "Centro Internacional de Fotografía, Barcelona.",
+        "entrada": "15 €",
+        "hora_creacion": "2024-07-22T10:00:00Z",
+        "tema":"Fotografía Moderna"
+    },
+    {
+        "id": 13,
+        "titulo": "La Fotografía de la Vida Silvestre en el Festival de Nairobi: Una Celebración de la Fauna Africana",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Un festival que celebra la vida silvestre africana a través de la fotografía, mostrando cómo los fotógrafos capturan la majestuosidad y la diversidad de la fauna en su hábitat natural.",
+        "ubicacion": "Centro de Fotografía de Vida Silvestre, Nairobi.",
+        "entrada": "1,000 KES",
+        "hora_creacion": "2024-07-22T10:00:00Z",
+         "tema":"Naturaleza"
+    },
+    {
+        "id": 14,
+        "titulo": "\"Realidades Alternativas\": El Museo de Arte Digital Presenta Imágenes que Transforman la Percepción",
+        "fecha": "5 - 20 de noviembre de 2024",
+        "descripcion": "Una exposición que explora cómo la fotografía digital puede crear realidades alternativas y transformar nuestra percepción del mundo a través de la manipulación y la creatividad.",
+        "ubicacion": "Museo de Arte Digital, Ciudad.",
+        "entrada": "10 €",
+        "hora_creacion": "2024-07-22T10:00:00Z",
+         "tema":"Digital"
+    },
+    {
+        "id": 15,
+        "titulo": "El Festival de Fotografía de Paisajes en Vancouver Ofrece una Mirada a los Entornos Naturales de la Región",
+        "fecha": "1 - 10 de diciembre de 2024",
+        "descripcion": "Un festival que destaca la fotografía de paisajes en la región de Vancouver, mostrando la belleza y la diversidad de los entornos naturales a través de imágenes impresionantes.",
+        "ubicacion": "Centro de Fotografía de Paisajes, Vancouver.",
+        "entrada": "20 CAD",
+        "hora_creacion": "2024-07-21T10:00:00Z",
+        "tema":"Paisajes"
+    },
+    {
+        "id": 16,
+        "titulo": "\"Imágenes del Pasado\": El Museo de Fotografía Histórica Presenta una Muestra de Tiempos Anteriores",
+        "fecha": "15 de septiembre - 30 de octubre de 2024",
+        "descripcion": "Una exposición que explora la historia a través de la fotografía, ofreciendo una visión del pasado a través de imágenes que documentan momentos y eventos históricos importantes.",
+        "ubicacion": "Museo de Fotografía Histórica, Ciudad.",
+        "entrada": "12 €",
+        "hora_creacion": "2024-07-21T10:00:00Z",
+        "tema":"Documental"
+    },
+    {
+        "id": 17,
+        "titulo": "El Centro de Fotografía de Arte en Tokio Presenta \"Visiones del Futuro\": Una Exposición que Explora Nuevas Fronteras",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Este evento celebra la fotografía que explora el futuro, mostrando cómo los fotógrafos imaginan y representan posibles futuros a través de sus obras.",
+        "ubicacion": "Centro de Fotografía de Arte, Tokio.",
+        "entrada": "2,000 ¥",
+        "hora_creacion": "2024-07-19T10:00:00Z",
+        "tema":"Fotografía Moderna"
+    },
+    {
+        "id": 18,
+        "titulo": "La Fotografía de la Vida Cotidiana en el Museo de Praga: Un Viaje a Través de las Rutinas Diarias",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Una exposición que captura la esencia de la vida cotidiana, mostrando cómo las rutinas diarias y los momentos simples son retratados de manera impactante a través de la fotografía.",
+        "ubicacion": "Museo de Fotografía de Praga, Ciudad.",
+        "entrada": "10 €",
+        "hora_creacion": "2024-07-19T10:00:00Z",
+        "tema":"Fotografía Moderna"
+    },
+    {
+        "id": 19,
+        "titulo": "\"Miradas a la Modernidad\": El Museo de Fotografía Actual Presenta una Exposición de Arte Contemporáneo",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Una exposición que explora la fotografía contemporánea y moderna, mostrando cómo los artistas actuales abordan temas y técnicas innovadoras en el arte fotográfico.",
+        "ubicacion": "Museo de Fotografía Actual, Ciudad.",
+        "entrada": "12 €",
+        "hora_creacion": "2024-07-18T10:00:00Z",
+        "tema":"Fotografía Moderna"
+    },
+    {
+        "id": 20,
+        "titulo": "El Festival de Fotografía Submarina en Sydney Ofrece una Vista Inédita del Mundo Acuático",
+        "fecha": "5 - 15 de noviembre de 2024",
+        "descripcion": "Un festival que celebra la fotografía submarina, mostrando la vida y los paisajes bajo el agua a través de imágenes capturadas en el entorno acuático.",
+        "ubicacion": "Centro de Fotografía Submarina, Sydney.",
+        "entrada": "25 AUD",
+        "hora_creacion": "2024-07-17T10:00:00Z",
+        "tema":"Subacuático"
+    },
+    {
+        "id": 21,
+        "titulo": "\"Reimaginando el Retrato\": El Museo de Fotografía Contemporánea Presenta Nuevas Perspectivas en el Arte del Retrato",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Una exposición que ofrece nuevas perspectivas en el retrato fotográfico, mostrando cómo los fotógrafos contemporáneos están reinventando y experimentando con este género clásico.",
+        "ubicacion": "Museo de Fotografía Contemporánea, Ciudad.",
+        "entrada": "12 €",
+        "hora_creacion": "2024-07-17T10:00:00Z",
+        "tema":"Retratos"
+    },
+    {
+        "id": 22,
+        "titulo": "El Centro de Fotografía de la Naturaleza en Vancouver Celebra \"Colores del Otoño\": Una Muestra de la Estación",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Una celebración de la fotografía de paisajes otoñales, mostrando cómo los fotógrafos capturan la transformación de la naturaleza durante esta colorida estación.",
+        "ubicacion": "Centro de Fotografía de la Naturaleza, Vancouver.",
+        "entrada": "20 CAD",
+        "hora_creacion": "2024-07-16T10:00:00Z",
+        "tema":"Paisajes"
+    },
+    {
+        "id": 23,
+        "titulo": "\"El Arte de Capturar el Movimiento\": El Museo de Fotografía Dinámica Presenta una Exposición de Imágenes en Acción",
+        "fecha": "15 de octubre - 30 de noviembre de 2024",
+        "descripcion": "Una exposición que explora cómo la fotografía puede capturar el movimiento y la acción, mostrando imágenes que congelan momentos dinámicos y emocionantes en el tiempo.",
+        "ubicacion": "Museo de Fotografía Dinámica, Ciudad.",
+        "entrada": "10 €",
+        "hora_creacion": "2024-07-16T10:00:00Z",
+        "tema":"Fotografía en Movimiento"
+    },
+    {
+        "id": 24,
+        "titulo": "El Festival de Fotografía de Aventura en Ciudad del Cabo Ofrece un Vistazo a Exploraciones Extremas",
+        "fecha": "5 - 15 de noviembre de 2024",
+        "descripcion": "Un festival que celebra la fotografía de aventuras extremas, mostrando cómo los fotógrafos documentan y capturan la emoción y la belleza de las exploraciones más audaces.",
+        "ubicacion": "Centro de Fotografía de Aventura, Ciudad del Cabo.",
+        "entrada": "150 ZAR",
+        "hora_creacion": "2024-07-15T10:00:00Z",
+        "tema":"Fotografía en Movimiento"
+    },
+    {
+        "id": 25,
+        "titulo": "\"Momentos de la Historia\": El Museo de Fotografía Histórica Presenta una Exposición que Revive el Pasado",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Una muestra que explora cómo la fotografía ha documentado momentos históricos significativos, ofreciendo una visión única y emotiva del pasado a través de imágenes.",
+        "ubicacion": "Museo de Fotografía Histórica, Ciudad.",
+        "entrada": "12 €",
+        "hora_creacion": "2024-07-15T10:00:00Z",
+        "tema":"Documental"
+    },
+    {
+        "id": 26,
+        "titulo": "El Festival de Fotografía de Eventos Culturales en Ciudad de México Ofrece una Vista de la Vida Cultural Local",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Un festival que destaca la fotografía de eventos culturales, mostrando cómo los fotógrafos capturan la vibrante vida cultural y las tradiciones locales en México.",
+        "ubicacion": "Centro de Fotografía Cultural, Ciudad de México.",
+        "entrada": "200 MXN",
+        "hora_creacion": "2024-07-15T10:00:00Z",
+        "tema":"Urbano"
+    },
+    {
+        "id": 27,
+        "titulo": "\"Visiones del Más Allá\": El Museo de Fotografía Paranormal Presenta Imágenes Sobrenaturales",
+        "fecha": "5 - 20 de noviembre de 2024",
+        "descripcion": "Una exposición que explora la fotografía de temas sobrenaturales y paranormales, mostrando cómo los fotógrafos interpretan y representan lo desconocido y lo misterioso.",
+        "ubicacion": "Museo de Fotografía Paranormal, Ciudad.",
+        "entrada": "15 €",
+        "hora_creacion": "2024-07-13T10:00:00Z",
+        "tema":"Sobrenatural"
+    },
+    {
+        "id": 28,
+        "titulo": "El Festival de Fotografía de Arte en París Destaca las Últimas Tendencias y Estilos en la Fotografía Contemporánea",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Un festival que celebra la fotografía contemporánea, mostrando las últimas tendencias y estilos en el arte fotográfico y ofreciendo una plataforma para los artistas más innovadores.",
+        "ubicacion": "Centro de Fotografía de Arte, París.",
+        "entrada": "12 €",
+        "hora_creacion": "2024-07-12T10:00:00Z",
+        "tema":"Fotografía Moderna"
+    },
+    {
+        "id": 29,
+        "titulo": "\"Ecos del Futuro\": El Museo de Fotografía Futurista Presenta una Muestra de Imágenes Visionarias",
+        "fecha": "15 de octubre - 30 de noviembre de 2024",
+        "descripcion": "Este evento explora la fotografía que imagina el futuro, presentando obras que ofrecen una visión visionaria y creativa de lo que está por venir.",
+        "ubicacion": "Museo de Fotografía Futurista, Ciudad.",
+        "entrada": "15 €",
+        "hora_creacion": "2024-07-12T10:00:00Z",
+        "tema":"Ciencia y Espacio"
+    },
+    {
+        "id": 30,
+        "titulo": "El Festival de Fotografía de Arquitectura en Berlín Ofrece una Vista de los Diseños y Estructuras Modernas",
+        "fecha": "5 - 15 de noviembre de 2024",
+        "descripcion": "Un festival que destaca la fotografía de arquitectura, mostrando cómo los fotógrafos capturan la elegancia y la innovación en los diseños y estructuras modernas.",
+        "ubicacion": "Centro de Fotografía de Arquitectura, Berlín.",
+        "entrada": "20 €",
+        "hora_creacion": "2024-07-12T10:00:00Z",
+        "tema":"Arquitectura"
+    },
+    {
+        "id": 31,
+        "titulo": "\"Reflejos del Pasado\": El Museo de Fotografía Retro Presenta una Muestra de Imágenes Vintage",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Una exposición que explora la fotografía vintage, ofreciendo una visión del pasado a través de imágenes que capturan la esencia de épocas anteriores con un toque retro.",
+        "ubicacion": "Museo de Fotografía Retro, Ciudad.",
+        "entrada": "10 €",
+        "hora_creacion": "2024-07-11T10:00:00Z",
+        "tema":"Documental"
+    },
+    {
+        "id": 32,
+        "titulo": "El Festival de Fotografía en Bogotá Ofrece una Vista de la Vida Urbana y Rural en Colombia",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Un festival que celebra la fotografía de la vida urbana y rural en Colombia, mostrando cómo los fotógrafos capturan la diversidad y la riqueza de los diferentes entornos del país.",
+        "ubicacion": "Centro de Fotografía de Bogotá, Bogotá.",
+        "entrada": "50,000 COP",
+        "hora_creacion": "2024-07-10T10:00:00Z",
+        "tema":"Urbano"
+    },
+    {
+        "id": 33,
+        "titulo": "\"Imágenes del Sueño\": El Museo de Fotografía Surrealista Presenta una Muestra de Imágenes Oníricas",
+        "fecha": "5 - 20 de noviembre de 2024",
+        "descripcion": "Una exposición que explora la fotografía surrealista, mostrando cómo los fotógrafos crean imágenes oníricas y evocadoras que desafían la realidad y la lógica.",
+        "ubicacion": "Museo de Fotografía Surrealista, Ciudad.",
+        "entrada": "12 €",
+        "hora_creacion": "2024-07-10T10:00:00Z",
+        "tema":"Surrealismo"
+    },
+    {
+        "id": 34,
+        "titulo": "El Festival de Fotografía de la Ciudad en Nueva York Ofrece un Vistazo a la Vida Metropolita",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Un festival que celebra la fotografía de la vida en la ciudad, mostrando cómo los fotógrafos capturan la dinámica y la energía de la vida metropolitana en Nueva York.",
+        "ubicacion": "Centro de Fotografía de la Ciudad, Nueva York.",
+        "entrada": "20 $",
+        "hora_creacion": "2024-07-10T10:00:00Z",
+        "tema":"Urbano"
+    },
+    {
+        "id": 35,
+        "titulo": "\"Enfoques del Movimiento\": El Museo de Fotografía de Acción Presenta Imágenes en Movimiento",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Una exposición que explora la fotografía en movimiento, mostrando cómo los fotógrafos capturan la acción y la dinámica a través de imágenes vibrantes y llenas de energía.",
+        "ubicacion": "Museo de Fotografía de Acción, Ciudad.",
+        "entrada": "12 €",
+        "hora_creacion": "2024-07-10T10:00:00Z",
+        "tema":"Fotografía en Movimiento"
+    },
+    {
+        "id": 36,
+        "titulo": "El Festival de Fotografía de Retratos en Los Ángeles Ofrece una Celebración de la Diversidad Humana",
+        "fecha": "5 - 20 de noviembre de 2024",
+        "descripcion": "Un festival que se centra en la fotografía de retratos, mostrando cómo los fotógrafos capturan la esencia y la diversidad de las personas a través de imágenes íntimas y poderosas.",
+        "ubicacion": "Centro de Fotografía de Retratos, Los Ángeles.",
+        "entrada": "15 $",
+        "hora_creacion": "2024-07-09T10:00:00Z",
+        "tema":"Retratos"
+    },
+    {
+        "id": 37,
+        "titulo": "\"Realidades Distintas\": El Museo de Fotografía Experimental Presenta una Muestra de Imágenes Inusuales",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Una exposición que explora la fotografía experimental, mostrando cómo los fotógrafos utilizan técnicas innovadoras para crear imágenes inusuales y creativas.",
+        "ubicacion": "Museo de Fotografía Experimental, Ciudad.",
+        "entrada": "12 €",
+        "hora_creacion": "2024-07-08T10:00:00Z",
+        "tema":"Fotografía Moderna"
+    },
+    {
+        "id": 38,
+        "titulo": "El Festival de Fotografía de la Historia Natural en San Francisco Ofrece una Vista de la Fauna y Flora Locales",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Un festival que celebra la fotografía de la historia natural, mostrando cómo los fotógrafos capturan la belleza y la diversidad de la fauna y flora locales en San Francisco.",
+        "ubicacion": "Centro de Fotografía de Historia Natural, San Francisco.",
+        "entrada": "20 $",
+        "hora_creacion": "2024-07-08T10:00:00Z",
+        "tema":"Naturaleza"
+    },
+    {
+        "id": 39,
+        "titulo": "\"Escenas de la Vida Cotidiana\": El Museo de Fotografía de la Vida Real Presenta Imágenes del Día a Día",
+        "fecha": "5 - 20 de noviembre de 2024",
+        "descripcion": "Una exposición que captura la esencia de la vida cotidiana, mostrando cómo las rutinas diarias y los momentos simples se transforman en imágenes significativas y emotivas.",
+        "ubicacion": "Museo de Fotografía de la Vida Real, Ciudad.",
+        "entrada": "10 €",
+        "hora_creacion": "2024-07-08T10:00:00Z",
+        "tema":"Fotografía Moderna"
+    },
+    {
+        "id": 40,
+        "titulo": "El Festival de Fotografía de Paisajes en Ciudad de México Ofrece una Vista de los Entornos Naturales de la Región",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Un festival que celebra la fotografía de paisajes, mostrando cómo los fotógrafos capturan la belleza y la diversidad de los entornos naturales en Ciudad de México.",
+        "ubicacion": "Centro de Fotografía de Paisajes, Ciudad de México.",
+        "entrada": "200 MXN",
+        "hora_creacion": "2024-07-07T10:00:00Z",
+        "tema":"Paisajes"
+    },
+    {
+        "id": 41,
+        "titulo": "\"Visiones de la Modernidad\": El Museo de Fotografía Contemporánea Presenta una Muestra de Arte Actual",
+        "fecha": "15 de octubre - 30 de noviembre de 2024",
+        "descripcion": "Este evento celebra la fotografía moderna y contemporánea, mostrando cómo los fotógrafos actuales abordan temas y estilos innovadores en el arte fotográfico.",
+        "ubicacion": "Museo de Fotografía Contemporánea, Ciudad.",
+        "entrada": "12 €",
+        "hora_creacion": "2024-07-06T10:00:00Z",
+        "tema":"Fotografía Moderna"
+    },
+    {
+        "id": 42,
+        "titulo": "El Festival de Fotografía de Moda en Nueva York Destaca las Últimas Tendencias y Diseños",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Un festival que celebra la fotografía de moda, mostrando las últimas tendencias y diseños en el mundo de la moda a través de imágenes impactantes y elegantes.",
+        "ubicacion": "Centro de Fotografía de Moda, Nueva York.",
+        "entrada": "20 $",
+        "hora_creacion": "2024-07-05T10:00:00Z",
+        "tema":"Moda"
+    },
+    {
+        "id": 43,
+        "titulo": "\"La Magia de la Fotografía en Blanco y Negro\": El Museo de Arte de Ciudad Presenta una Muestra Clásica",
+        "fecha": "5 - 20 de noviembre de 2024",
+        "descripcion": "Una exposición que rinde homenaje a la fotografía en blanco y negro, destacando la elegancia y el impacto visual que este estilo clásico sigue ofreciendo en el arte fotográfico.",
+        "ubicacion": "Museo de Arte de Ciudad, Ciudad.",
+        "entrada": "12 €",
+        "hora_creacion": "2024-07-05T10:00:00Z",
+        "tema":"Blanco y Negro"
+    },
+    {
+        "id": 44,
+        "titulo": "El Festival de Fotografía de Viajes en Bangkok Ofrece una Vista Global de los Destinos Exóticos",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Un festival que celebra la fotografía de viajes, mostrando los destinos más exóticos y las experiencias únicas a través de imágenes cautivadoras.",
+        "ubicacion": "Centro de Fotografía de Viajes, Bangkok.",
+        "entrada": "300 THB",
+        "hora_creacion": "2024-07-03T10:00:00Z",
+        "tema":"Urbano"
+    },
+    {
+        "id": 45,
+        "titulo": "\"Capturando el Espíritu de la Ciudad\": El Museo de Fotografía Urbana Presenta una Exposición de Imágenes Urbanas",
+        "fecha": "15 de octubre - 30 de noviembre de 2024",
+        "descripcion": "Una exposición que explora la fotografía urbana, mostrando cómo los fotógrafos capturan la energía y la vida de las ciudades a través de imágenes dinámicas y evocadoras.",
+        "ubicacion": "Museo de Fotografía Urbana, Ciudad.",
+        "entrada": "12 €",
+        "hora_creacion": "2024-07-03T10:00:00Z",
+        "tema":"Urbano"
+    },
+    {
+        "id": 46,
+        "titulo": "El Festival de Fotografía de Animales en Miami Ofrece una Vista de la Fauna Local y Exótica",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Un festival que celebra la fotografía de animales, mostrando la belleza y la diversidad de la fauna local y exótica a través de imágenes impactantes.",
+        "ubicacion": "Centro de Fotografía de Animales, Miami.",
+        "entrada": "25 $",
+        "hora_creacion": "2024-07-03T10:00:00Z",
+        "tema":"Urbano"
+    },
+    {
+        "id": 47,
+        "titulo": "\"El Arte de Capturar el Momento\": El Museo de Fotografía Instantánea Presenta una Muestra de Imágenes al Instante",
+        "fecha": "1 - 15 de noviembre de 2024",
+        "descripcion": "Una exposición que celebra la fotografía instantánea, mostrando cómo los fotógrafos capturan momentos fugaces y espontáneos a través de imágenes instantáneas.",
+        "ubicacion": "Museo de Fotografía Instantánea, Ciudad.",
+        "entrada": "10 €",
+        "hora_creacion": "2024-07-03T10:00:00Z",
+        "tema":"Fotografía Moderna"
+    },
+    {
+        "id": 48,
+        "titulo": "El Festival de Fotografía de Arquitectura en Chicago Ofrece una Vista de los Diseños y Construcciones Modernas",
+        "fecha": "15 de octubre - 30 de noviembre de 2024",
+        "descripcion": "Un festival que destaca la fotografía de arquitectura, mostrando cómo los fotógrafos capturan la esencia de los diseños y construcciones modernas en Chicago.",
+        "ubicacion": "Centro de Fotografía de Arquitectura, Chicago.",
+        "entrada": "20 $",
+        "hora_creacion": "2024-07-02T10:00:00Z",
+        "tema":"Arquitectura"
+    },
+    {
+        "id": 49,
+        "titulo": "\"El Arte de la Fotografía en Blanco y Negro\": El Museo de Arte Retro Presenta Imágenes Clásicas",
+        "fecha": "5 - 20 de noviembre de 2024",
+        "descripcion": "Una exposición que celebra la fotografía en blanco y negro, destacando la profundidad y el dramatismo que este estilo clásico aporta a la fotografía.",
+        "ubicacion": "Museo de Arte Retro, Ciudad.",
+        "entrada": "10 €",
+        "hora_creacion": "2024-07-02T10:00:00Z",
+        "tema":"Blanco y Negro"
+    },
+    {
+        "id": 50,
+        "titulo": "El Festival de Fotografía de la Vida en el Campo en Lyon Ofrece una Vista de la Vida Rural Francesa",
+        "fecha": "5 - 20 de noviembre de 2024",
+        "descripcion": "Un festival que celebra la fotografía de la vida en el campo, mostrando la belleza y la simplicidad de la vida rural en Francia a través de imágenes cautivadoras.",
+        "ubicacion": "Centro de Fotografía Rural, Lyon.",
+        "entrada": "15 €",
+        "hora_creacion": "2024-07-02T10:00:00Z",
+        "tema":"Naturaleza"
+    }
   ]
+
 }

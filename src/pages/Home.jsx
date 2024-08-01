@@ -1,8 +1,28 @@
-import Carrusel from "../components/Carrusel";
+import { useState, useEffect } from "react";
+import ListaNoticias from "../components/ListaNoticias";
+import { helpHttp } from "../helpers/helpHTTP";
 import imagenCamara from '../images/nikon-8388022_1920.jpg';
 import '../components/estilos-home.css'
+import '../components/estilos-noticias.css';
 
 export function Home(){
+  const [datos, setDatos] = useState([]);
+
+  let api = helpHttp();
+  let url = "http://localhost:4500/noticias";
+
+  useEffect(() => {
+    api.get(url).then((res) => {
+      if (!res.err) {
+        setDatos(res);
+      } else {
+        console.error("Error al obtener datos:", res);
+      }
+    });
+  }, []);
+
+  const ultimasNoticias = datos.slice(0, 4);
+
     return(
       <>
         <div className="image-container">
@@ -12,45 +32,12 @@ export function Home(){
         </div>
         <br />
         <h2 className="text-center h1-text">Lo más reciente</h2>
-
-        <div className="container my-4">
-          <div className="row">
-            <div className="col-md-4 mb-4">
-              <div className="card">
-                <img src="..." className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Card title 1</h5>
-                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4 mb-4">
-              <div className="card">
-                <img src="..." className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Card title 2</h5>
-                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <p className="card-text"><small className="text-body-secondary">Last updated 10 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4 mb-4">
-              <div className="card">
-                <img src="..." className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Card title 3</h5>
-                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <p className="card-text"><small className="text-body-secondary">Last updated 15 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-
-            
-          </div>
-        </div>
+        <div className="contest-list">
+        {ultimasNoticias && ultimasNoticias.length > 0 ? ultimasNoticias.map(el => (
+          <ListaNoticias key={el.id} el={el} />
+        )) : <h2>No hay datos</h2>}
+      </div>
+       
       </>
       
     )

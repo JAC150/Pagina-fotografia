@@ -51,7 +51,7 @@ export function Header() {
   return (
     <div className="header">
       <div className="header__logo">
-        <strong>LOGO</strong>
+        {/* <strong>LOGO</strong> */}
       </div>
       <nav className="navbar">
         <ul className="navbar__menu">

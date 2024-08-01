@@ -10,6 +10,7 @@ import { ArticuloDetalle } from "./pages/ArticuloDetalle";
 import { Libros } from "./pages/Libros";
 import { Entrevistas } from "./pages/Entrevistas";
 import { Equipo } from "./pages/Equipo";
+import { Noticias } from "./pages/Noticias";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import PrivateRoute from "./components/PrivateRoute";
@@ -29,6 +30,7 @@ function AppContent() {
         <Route path="/libros" element={<Libros />} />
         <Route path="/equipo" element={<Equipo />} />
         <Route path="/entrevistas" element={<Entrevistas />} />
+        <Route path="/noticias" element={<Noticias />} />
         <Route path="/concursos" element={<Concursos />} />
         <Route path="/concursos/:id" element={<FormularioConcurso />} />
         <Route path="/articulos" element={<Articulos />} />

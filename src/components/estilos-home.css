@@ -31,3 +31,8 @@
     z-index: 1;
     max-width: 35%; 
   }
+
+  .h1-text{
+    margin-top:1rem;
+    font-size:30px;
+  }

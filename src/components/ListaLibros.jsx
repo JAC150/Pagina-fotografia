@@ -10,7 +10,7 @@ export function ListaLibros({el}){
                   <h5 className="card-title mb-3">Libro: {titulo}</h5>
                   <p className="card-text mb-2"><small className="text-muted">Autor: {autor}</small></p>
                   <p className="card-text mb-3">{descripcion}</p>
-                  <p className="card-text"> {opinion}</p>
+                  <p className="card-text">Crítica: {opinion}</p>
                 </div>
               </div>
             </div>
