@@ -1,0 +1,182 @@
+
+        <html>
+            <head>
+                <meta charset="UTF-8">
+            </head>
+            <body>
+                
+        <h2>Reporte de Cotización de Arreglos</h2>
+        <p><b>Rango de fechas:<b> 2024-07-07 - 2024-07-31</p>
+    
+                <table class="table table-bordered"><thead><tr><th>ID</th><th>Cliente</th><th>Dirección</th><th>Teléfono</th><th>Email</th><th>Fecha de Cotización</th><th>Estatus</th><th>Correlativo</th><th>Tipo</th><th>Precio Total</th><th>Condiciones de Pago</th><th>Notas Adicionales</th><th>Datos Comerciales</th></tr></thead><tbody><tr>
+                    <td>31</td>
+                    <td>gdfgfdgdfgd</td>
+                    <td>asdasdasd</td>
+                    <td>42423</td>
+                    <td>fsdfds@f.c</td>
+                    <td>2024-07-23 17:06:33</td>
+                    <td>PENDIENTE</td>
+                    <td>1</td>
+                    <td>Arreglo</td>
+                    <td>12.00</td>
+                    <td>asdas</td>
+                    <td>adas</td>
+                    <td>asdasd</td>
+                </tr><tr>
+                    <td>32</td>
+                    <td>gdfgfdgdfgd</td>
+                    <td>asdasdasd</td>
+                    <td>42423</td>
+                    <td>fsdfds@f.c</td>
+                    <td>2024-07-23 17:06:56</td>
+                    <td>PENDIENTE</td>
+                    <td>1</td>
+                    <td>Arreglo</td>
+                    <td>12.00</td>
+                    <td>asdas</td>
+                    <td>adas</td>
+                    <td>asdasd</td>
+                </tr><tr>
+                    <td>33</td>
+                    <td>gdfgfdgdfgd</td>
+                    <td>asdasdasd</td>
+                    <td>42423</td>
+                    <td>fsdfds@f.c</td>
+                    <td>2024-07-23 17:07:50</td>
+                    <td>PENDIENTE</td>
+                    <td>1</td>
+                    <td>Arreglo</td>
+                    <td>12.00</td>
+                    <td>asdas</td>
+                    <td>adas</td>
+                    <td>asdasd</td>
+                </tr><tr>
+                    <td>34</td>
+                    <td>gdfgfdgdfgd</td>
+                    <td>asdasdasd</td>
+                    <td>42423</td>
+                    <td>fsdfds@f.c</td>
+                    <td>2024-07-23 17:09:06</td>
+                    <td>PENDIENTE</td>
+                    <td>1</td>
+                    <td>Arreglo</td>
+                    <td>12.00</td>
+                    <td>fsfd</td>
+                    <td>sfsd</td>
+                    <td>sdfds</td>
+                </tr><tr>
+                    <td>35</td>
+                    <td>dgfdsfsd</td>
+                    <td>null</td>
+                    <td>2423</td>
+                    <td>karimhernandez233@gmail.com</td>
+                    <td>2024-07-23 23:20:18</td>
+                    <td>PENDIENTE</td>
+                    <td>1</td>
+                    <td>Evento</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                </tr><tr>
+                    <td>36</td>
+                    <td>dgfdsfsd</td>
+                    <td>null</td>
+                    <td>2423</td>
+                    <td>karimhernandez233@gmail.com</td>
+                    <td>2024-07-23 23:20:34</td>
+                    <td>PENDIENTE</td>
+                    <td>1</td>
+                    <td>Evento</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                </tr><tr>
+                    <td>37</td>
+                    <td>dgfdsfsd</td>
+                    <td>null</td>
+                    <td>2423</td>
+                    <td>karimhernandez233@gmail.com</td>
+                    <td>2024-07-23 23:20:55</td>
+                    <td>PENDIENTE</td>
+                    <td>1</td>
+                    <td>Evento</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                </tr><tr>
+                    <td>38</td>
+                    <td>dgfdsfsd</td>
+                    <td>null</td>
+                    <td>2423</td>
+                    <td>karimhernandez233@gmail.com</td>
+                    <td>2024-07-23 23:21:08</td>
+                    <td>PENDIENTE</td>
+                    <td>1</td>
+                    <td>Evento</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                </tr><tr>
+                    <td>39</td>
+                    <td>fsdfsdfsdf</td>
+                    <td></td>
+                    <td>2423</td>
+                    <td>karimhernandez233@gmail.com</td>
+                    <td>2024-07-23 23:21:20</td>
+                    <td>PENDIENTE</td>
+                    <td>1</td>
+                    <td>Evento</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                </tr><tr>
+                    <td>40</td>
+                    <td>Mara Luisa</td>
+                    <td>Los castaños</td>
+                    <td>12345667</td>
+                    <td>maraluisa@gmail.com</td>
+                    <td>2024-07-23 23:49:25</td>
+                    <td>PENDIENTE</td>
+                    <td>1</td>
+                    <td>Arreglo</td>
+                    <td>1.00</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr><tr>
+                    <td>41</td>
+                    <td>Jose Manuel</td>
+                    <td>col san angel</td>
+                    <td>1234324</td>
+                    <td>aasd@qeqwe.c</td>
+                    <td>2024-07-24 00:57:04</td>
+                    <td>PENDIENTE</td>
+                    <td>1</td>
+                    <td>Arreglo</td>
+                    <td>123.00</td>
+                    <td>cxcxc</td>
+                    <td>adasd</td>
+                    <td>adasd</td>
+                </tr><tr>
+                    <td>42</td>
+                    <td>Tatiana</td>
+                    <td>col rivas</td>
+                    <td>12345678</td>
+                    <td>tatiana@gmail.com</td>
+                    <td>2024-07-24 01:11:25</td>
+                    <td>PENDIENTE</td>
+                    <td>1</td>
+                    <td>Arreglo</td>
+                    <td>12.00</td>
+                    <td>1</td>
+                    <td>sdf</td>
+                    <td>dfds</td>
+                </tr></tbody></table>
+            </body>
+        </html>
+    

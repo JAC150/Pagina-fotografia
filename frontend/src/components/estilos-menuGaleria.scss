@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: auto; /* Asegura que el contenedor principal tenga scroll si los .box exceden el ancho */
+  align-items: stretch; /* Asegura que los .box se estiren verticalmente */
+}
+
+.box {
+  flex: 0 1 calc(33.33% - 2%); /* Ajusta el ancho para que quepan tres .box en una línea */
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 1%; /* Ajusta el margen para separar los .box */
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+  display: flex; /* Asegura que el contenido de .box se alinee correctamente */
+  flex-direction: column; /* Coloca el contenido en una columna */
+}
+
+.box > img {
+  width: 100%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover {
+  flex: 0 1 50%; /* Ajusta el tamaño al hacer hover */
+}
+
+.box:hover > img {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,107 @@
+.our-team {
+    padding: 80px 0 90px; /* Ajustar el padding */
+    margin-bottom: 40px; /* Aumentar el margen inferior */
+    background-color: #f7f5ec;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%; /* Asegúrate de que el contenedor ocupa todo el ancho */
+    max-width: 1500px; /* Ajusta el máximo ancho del contenedor */
+    margin-left: auto; /* Centrar el contenedor */
+    margin-right: auto; /* Centrar el contenedor */
+  }
+  
+  .our-team .picture {
+    display: inline-block;
+    height: 180px; /* Aumentar la altura de la foto */
+    width: 180px; /* Aumentar el ancho de la foto */
+    margin-bottom: 60px; /* Ajustar el margen inferior */
+    z-index: 1;
+    position: relative;
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+  }
+  
+  .our-team .picture img {
+    width: 100%;
+    height: 100%; /* Asegura que la imagen cubra todo el contenedor */
+    object-fit: cover; /* Mantiene la proporción de la imagen y recorta si es necesario */
+    border-radius: 50%; /* Redondear la imagen */
+    transition: all 0.9s ease 0s;
+  }
+  
+  .our-team .picture::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #1369ce;
+    position: absolute;
+    bottom: 130%; /* Ajustar la posición */
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    transform: scale(3.5); /* Aumentar el tamaño del fondo */
+    transition: all 0.3s linear 0s;
+  }
+  
+  .our-team:hover .picture::before {
+    height: 100%;
+  }
+  
+  .our-team .picture::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #1369ce;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .our-team:hover .picture img {
+    box-shadow: 0 0 0 18px #f7f5ec; /* Aumentar el tamaño del shadow */
+    transform: scale(0.8); /* Reducir el tamaño de la imagen al hacer hover */
+  }
+  
+  .our-team .title {
+    display: block;
+    font-size: 18px; /* Aumentar el tamaño de la fuente */
+    color: #4e5052;
+    text-transform: capitalize;
+  }
+  
+  .our-team .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #1369ce;
+    position: absolute;
+    bottom: -120px; /* Ajustar la posición del fondo social */
+    left: 0;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .our-team:hover .social {
+    bottom: 0;
+  }
+  
+  .our-team .social li {
+    display: inline-block;
+  }
+  
+  .our-team .social li a {
+    display: block;
+    padding: 15px; /* Aumentar el padding */
+    font-size: 20px; /* Aumentar el tamaño de la fuente */
+    color: white;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+  }
+  
+  .our-team .social li a:hover {
+    color: #1369ce;
+    background-color: #f7f5ec;
+  }
+  
