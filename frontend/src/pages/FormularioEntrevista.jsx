@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet";
 
 export default function FormularioEntrevista() {
   const [form, setForm] = useState({
@@ -50,7 +51,11 @@ export default function FormularioEntrevista() {
   };
 
   return (
-    <div className="container d-flex justify-content-center align-items-center min-vh-100">
+    <>
+      <Helmet>
+          <title>Formulario de Solicitud de Entrevista | Página de Fotos</title>
+      </Helmet>
+    <div className="container d-flex justify-content-center align-items-center min-vh-80">
       <div className="row">
         <div className="col-12 col-md-7">
           <div className="shadow border p-4 rounded">
@@ -102,7 +107,7 @@ export default function FormularioEntrevista() {
                 </div>
                 <div className="col-12">
                   <label htmlFor="asunto" className="form-label">
-                    Asunto <span className="text-danger">*</span>
+                    Mensaje <span className="text-danger">*</span>
                   </label>
                   <input
                     type="text"
@@ -131,5 +136,6 @@ export default function FormularioEntrevista() {
         </div>
       </div>
     </div>
+    </>
   );
 }

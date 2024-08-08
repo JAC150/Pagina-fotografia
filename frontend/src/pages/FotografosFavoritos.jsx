@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import ListarFotografos from '../components/ListaFotografos';
 import Actualizaciones from '../components/Actualizaciones';
-
+import { Helmet } from 'react-helmet';
 
 export default function FotografosFavoritos() {
     const user = JSON.parse(localStorage.getItem("user"));
@@ -41,12 +41,17 @@ export default function FotografosFavoritos() {
     };
 
     return (
-        <div className="container">
-        <h1 className="mt-5 text-center">Mis Fotógrafos Favoritos</h1>
-        <hr />
-        <ListarFotografos photographers={photographers} handleFollow={handleFollow} userId={userId} />
-        <h1>Actualizaciones</h1>
-        <Actualizaciones updates={updates} />
-        </div>
+        <>
+            <Helmet>
+                <title>Fotográfos Favoritos | Página de Fotos</title>
+            </Helmet>
+            <div className="container">
+            <h1 className="mt-5 text-center">Mis Fotógrafos Favoritos</h1>
+            <hr />
+            <ListarFotografos photographers={photographers} handleFollow={handleFollow} userId={userId} />
+            <h1>Actualizaciones</h1>
+            <Actualizaciones updates={updates} />
+            </div>
+        </>
     );
 }

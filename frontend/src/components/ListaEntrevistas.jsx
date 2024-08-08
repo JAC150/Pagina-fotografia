@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export function ListaEntrevistas({ datos}) {
+export function ListaEntrevistas({ datos, tipo}) {
   
   return (
     <>
@@ -10,7 +10,8 @@ export function ListaEntrevistas({ datos}) {
               <div className="news-content">
                   <span className="category">{el.fotografo}</span>
                   <h3>{el.tema}</h3>
-                  <Link to={`/entrevistas/${el.id}`}>Leer Entrevista +</Link>
+                  {tipo == 'normal' ? <Link to={`/entrevistas/${el.id}`}>Leer Entrevista +</Link>
+                  : <Link to={`/entrevistas-premium/${el.id}`}>Leer Entrevista +</Link>}
               </div>
           </div>
         )) : <h2>No hay datos</h2>}

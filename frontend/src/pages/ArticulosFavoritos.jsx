@@ -1,6 +1,7 @@
 import {ListaArticulos} from "../components/ListaArticulos"
 import React, { useState, useEffect } from 'react';
 import { helpHttp } from '../helpers/helpHTTP';
+import { Helmet } from "react-helmet";
 
 export function ArticulosFavoritos() {
   const [datos, setDatos] = useState([]);
@@ -24,6 +25,9 @@ const filteredDatos = datos.filter((articulo) =>
 
   return (
     <>
+      <Helmet>
+          <title>Artículos Favoritos | Página de Fotos</title>
+      </Helmet>
       <h1 className="mt-5 text-center">Artículos Favoritos</h1>
       <br />
         <hr />

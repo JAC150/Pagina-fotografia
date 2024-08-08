@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet";
 
 export default function FormularioEditores() {
   const [form, setForm] = useState({
@@ -59,14 +60,19 @@ export default function FormularioEditores() {
 
   return (
     <>
-      <div className="container d-flex justify-content-center align-items-center min-vh-100">
+      <Helmet>
+          <title>Aprobación Por Editores | Página de Fotos</title>
+      </Helmet>
+      <h1 className="mt-5">Aprobación por Editores</h1>
+      <hr />
+      <div className="container d-flex justify-content-center align-items-center min-vh-80" style={{marginTop:"-1rem"}}>
         <div className="row">
-          <div className="col-12 col-md-7">
+          <div className="col-6 col-md-7">
             <div className="shadow border p-4 rounded">
               <div className="col-12">
                 <div className="mb-5">
                   <br />
-                  <h2 className="h3">Aprobación de Fotografías y Carga en Galería</h2>
+                  <h2 className="h3">Carga de Fotografías en Galería</h2>
                   <h3 className="fs-6 fw-normal text-secondary m-0">
                     Llene todos los datos requeridos
                   </h3>
@@ -105,7 +111,7 @@ export default function FormularioEditores() {
                       onChange={handleChange}
                     >
                       <option value="">Seleccione una opción</option>
-                      <option value="retratos/">Retratos</option>
+                      <option value="retrato/">Retratos</option>
                       <option value="paisajes/">Paisajes</option>
                       <option value="urbana/">Fotografía Urbana</option>
                       <option value="arquitectura/">Fotografía de Arquitectura</option>
@@ -163,6 +169,7 @@ export default function FormularioEditores() {
           </div>
         </div>
       </div>
+      
     </>
   );
 }

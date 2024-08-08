@@ -34,15 +34,16 @@ body {
   align-items: center;
   height: 100%;
   margin: 0 auto;
-  overflow: visible; /* Asegúrate de que los elementos secundarios no se corten */
-  
+  overflow: visible;
+
   &__menu {
-    position: relative;
     display: flex;
+    flex-grow: 1;
+    justify-content: space-between; /* Distribuye los elementos a lo largo del contenedor */
+    position: relative;
   }
 
   &__link {
-    position: relative;
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
@@ -129,19 +130,45 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
+  width: 100%; /* Hacer que el dropdown cubra todo el ancho del contenedor */
   background: #333;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 $borderRadius $borderRadius;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   z-index: 3000;
 }
 
 .navbar__dropdown-item {
-  padding: 0.5rem 4rem;
+  padding: 0.5rem 0.2rem; /* Ajustar padding para mayor cobertura */
   color: #fff;
   text-decoration: none;
   transition: background 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar__dropdown-item:hover {
   background: #555;
+}
+
+
+.navbar__dropdown-item-notification {
+  padding: 0.2rem 0.1rem; /* Ajustar padding para mayor cobertura */
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.navbar__dropdown-item-notification:hover {
+  background: #555;
+}
+
+.navbar__dropdown-time {
+  font-size: 0.7rem;
+  color: #ccc;
+  margin-left: 1rem;
 }

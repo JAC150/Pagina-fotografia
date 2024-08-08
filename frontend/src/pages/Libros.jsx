@@ -1,6 +1,7 @@
 import { ListaLibros } from "../components/ListaLibros";
 import { useEffect, useState } from "react";
-import { helpHttp } from "../helpers/helpHTTP"; 
+import { helpHttp } from "../helpers/helpHTTP";
+import { Helmet } from "react-helmet"; 
 
 export function Libros(){
   const [datos, setDatos] = useState([]);
@@ -15,6 +16,9 @@ export function Libros(){
 
     return(
       <>
+        <Helmet>
+            <title>Críticas de Libros | Página de Fotos</title>
+        </Helmet>
         <h1 className="mt-5 text-center">Libros</h1>
         <br />
         <hr />

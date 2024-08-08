@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import '../components/estilos-concursos.css'
 import { helpHttp } from "../helpers/helpHTTP";
 import ListaConcursos from "../components/ListaConcursos";
+import { Helmet } from "react-helmet";
 
 export function Concursos(){
   const [datos, setDatos] = useState([]);
@@ -16,6 +17,9 @@ export function Concursos(){
 
     return(
       <>
+        <Helmet>
+            <title>Concursos | Página de Fotos</title>
+        </Helmet>
         <h1 className="mt-5 text-center">Concursos</h1>
         <br />
         <hr />

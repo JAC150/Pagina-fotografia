@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Helmet } from 'react-helmet';
 
 const containerStyle = {
   display: 'flex',
@@ -65,6 +66,9 @@ export function GaleriasEstilos() {
 
   return (
     <>
+      <Helmet>
+          <title>Galerías:Estilos | Página de Fotos</title>
+      </Helmet>
       <nav aria-label="breadcrumb">
           <li className="breadcrumb-item mt-4 ms-auto" style={{ marginLeft: "4rem", fontSize:"20px"}}><a href="/galerias">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import '../components/estilos-noticias.css';
 import { helpHttp } from "../helpers/helpHTTP";
 import ListaNoticias from "../components/ListaNoticias";
+import { Helmet } from "react-helmet";
 
 export function Noticias() {
   const [datos, setDatos] = useState([]);
@@ -41,6 +42,9 @@ export function Noticias() {
 
   return (
     <>
+      <Helmet>
+          <title>Noticias | Página de Fotos</title>
+      </Helmet>
       <h1 className="mt-5 text-center">Noticias</h1>
       <br />
       <hr />

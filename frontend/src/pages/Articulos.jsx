@@ -1,6 +1,7 @@
 import {ListaArticulos} from "../components/ListaArticulos"
 import React, { useState, useEffect } from 'react';
-import { helpHttp } from '../helpers/helpHTTP'; // Asegúrate de que el path sea correcto
+import { helpHttp } from '../helpers/helpHTTP'; 
+import { Helmet } from "react-helmet";
 
 export function Articulos() {
   const [datos, setDatos] = useState([]);
@@ -11,14 +12,11 @@ export function Articulos() {
 
   useEffect(() => {
     api.get(url).then((res) => {
-      console.log('Datos recibidos:', res); // Verifica qué datos estás recibiendo
+      console.log('Datos recibidos:', res); 
       setDatos(res);
     });
   }, []);
-/* 
-  const normalizeString = (str) => {
-    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-  }; */
+
 
 // Filtra los datos según el término de búsqueda
 const filteredDatos = datos.filter((articulo) =>
@@ -28,6 +26,9 @@ const filteredDatos = datos.filter((articulo) =>
 
   return (
     <>
+      <Helmet>
+          <title>Artículos | Página de Fotos</title>
+      </Helmet>
       <h1 className="mt-5 text-center">Artículos</h1>
       <br />
         <hr />

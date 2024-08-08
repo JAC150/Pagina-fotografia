@@ -45,9 +45,16 @@ export function ArticuloDetalle({articulo}) {
   console.log(articulo)
 
   const {id} = useParams();
+  let url;
 
   let api = helpHttp();
-  let url = `http://localhost:4500/articulos/${id}`
+
+  if(id < 51){
+    url = `http://localhost:4500/articulos/${id}`
+  }else{
+    url = `http://localhost:4500/favoritos/${id}`
+  }
+
   useEffect(()=>{
     api.get(url).then((res)=>{
       setDatos(res)
@@ -59,10 +66,15 @@ export function ArticuloDetalle({articulo}) {
   return (
     <>
         <nav aria-label="breadcrumb ">
-            <li className="breadcrumb-item mt-4 ms-auto" style={{ marginLeft: "4rem", fontSize:"20px"}}><a href="/articulos">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i className="fas fa-reply"></i>
-            &nbsp; Regresar a Artículos</a></li>
+            {id < 51 ? <li className="breadcrumb-item mt-4 ms-auto" style={{ marginLeft: "4rem", fontSize:"20px"}}><a href="/articulos">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i className="fas fa-reply"></i>
+                        &nbsp; Regresar a Artículos</a></li>
+                      :<li className="breadcrumb-item mt-4 ms-auto" style={{ marginLeft: "4rem", fontSize:"20px"}}><a href="/articulos-favoritos">
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <i className="fas fa-reply"></i>
+                      &nbsp; Regresar a Artículos</a></li>
+            }   
         </nav>
         <div style={styles.container}>
             <h1 style={styles.title}>{datos.nombre}</h1>

@@ -178,7 +178,7 @@ app.post('/send', uploadMemory.none(), (req, res) => {
 
   let mailOptions = {
     from: GMAIL_USER,
-    to: 'Josuecolindres30@yahoo.com',
+    to: 'maynoraguileraosorto@gmail.com',
     subject: 'Solicitud de Entrevista a Fotográfo para la revista',
     html: `
       <p>Se ha recibido una nueva solicitud por parte de un fotográfo para una entrevista.</p>
@@ -200,13 +200,38 @@ app.post('/send', uploadMemory.none(), (req, res) => {
   });
 });
 
+
+app.post('/sendRetroalimentacion', uploadMemory.none(), (req, res) => {
+  const { username, email, asunto, retro } = req.body;
+
+  let mailOptions = {
+    from: GMAIL_USER,
+    to: email,
+    subject: 'Respuesta a Fotografo',
+    html: `
+      <p>Hola estimado(a) mi nombre es ${username} y le daré retroalimentación sobre las fotos enviadas.</p>
+      <p>${retro}</p>
+    `,
+  };
+
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      console.log(error);
+      res.status(500).send('Error al enviar el correo');
+    } else {
+      console.log('Correo enviado: ' + info.response);
+      res.status(200).send('Correo enviado');
+    }
+  });
+});
+
 app.post('/sendFormConcurso', uploadMemory.array('photos'), (req, res) => {
   const { username, concurso, nombrefoto } = req.body;
   const files = req.files;
 
   let mailOptions = {
     from: GMAIL_USER,
-    to: 'Josuecolindres30@yahoo.com',
+    to: 'maynoraguileraosorto@gmail.com',
     subject: `Participación en ${concurso}`,
     html: `
       <h3>Detalles de la Participación</h3>
@@ -238,7 +263,7 @@ app.post('/sendFotosPublicaciones', uploadMemory.array('photos'), (req, res) => 
 
     let mailOptions = {
         from: GMAIL_USER,
-        to: 'Josuecolindres30@yahoo.com',
+        to: 'maynoraguileraosorto@gmail.com',
         subject: `Solicitud para participar en nuevas publicaciones`,
         html: `
             <p>Se ha recibido una nueva solicitud de un fotográfo para publicar fotos en próximas
@@ -264,6 +289,40 @@ app.post('/sendFotosPublicaciones', uploadMemory.array('photos'), (req, res) => 
             res.status(200).json({ success: true, message: 'Correo enviado' });
         }
     });
+});
+
+
+app.post('/sendFotosRetroalimentacion', uploadMemory.array('photos'), (req, res) => {
+  const { username, correo, descripcion } = req.body;
+  const files = req.files;
+
+  let mailOptions = {
+      from: GMAIL_USER,
+      to: 'maynoraguileraosorto@gmail.com',
+      subject: `Solicitud de Revisión de Fotografias`,
+      html: `
+          <p>Se ha recibido una nueva solicitud de un fotográfo para revisar sus fotografías y recibir
+          correcciones sobre la técnica aplicada o el estilo.</p>
+          <h3>Detalles de la Solicitud</h3>
+          <p><strong>Nombre:</strong> ${username}</p>
+          <strong>Correo electrónico:</strong> ${correo}</p>
+          <p><strong>Mensaje:</strong> ${descripcion}</p>
+      `,
+      attachments: files.map(file => ({
+          filename: file.originalname,
+          content: file.buffer
+      }))
+  };
+
+  transporter.sendMail(mailOptions, (error, info) => {
+      if (error) {
+          console.log(error);
+          res.status(500).json({ success: false, message: 'Error al enviar el correo' });
+      } else {
+          console.log('Correo enviado: ' + info.response);
+          res.status(200).json({ success: true, message: 'Correo enviado' });
+      }
+  });
 });
 
 // Nueva ruta para cargar archivos en una carpeta

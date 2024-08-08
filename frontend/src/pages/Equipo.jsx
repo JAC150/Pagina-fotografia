@@ -1,6 +1,7 @@
 import ListaEquipos from "../components/ListaEquipos";
 import { useEffect, useState } from "react";
-import { helpHttp } from "../helpers/helpHTTP";  
+import { helpHttp } from "../helpers/helpHTTP";
+import { Helmet } from "react-helmet";  
 
 export function Equipo(){
   const [datos, setDatos] = useState([]);
@@ -20,6 +21,9 @@ export function Equipo(){
 
     return(
       <>
+        <Helmet>
+            <title>Reseñas de Equipo | Página de Fotos</title>
+        </Helmet>
         <h1 className="mt-5 text-center">Reseñas de Equipo</h1>
         <br />
         <hr />

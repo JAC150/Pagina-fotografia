@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet";
 
 export default function FormularioFotografo() {
   const [form, setForm] = useState({
@@ -65,6 +66,9 @@ export default function FormularioFotografo() {
 
   return (
     <>
+      <Helmet>
+          <title>Envío de Fotos para Publicaciones Futuras | Página de Fotos</title>
+      </Helmet>
       <div className="container d-flex justify-content-center align-items-center min-vh-100">
         <div className="row">
           <div className="col-12 col-md-7">

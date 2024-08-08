@@ -4,8 +4,17 @@ import { helpHttp } from "../helpers/helpHTTP";
 import imagenCamara from '../images/nikon-8388022_1920.jpg';
 import '../components/estilos-home.css'
 import '../components/estilos-noticias.css';
+import { Helmet } from "react-helmet";
+import { useAuth0 } from '@auth0/auth0-react';
 
 export function Home(){
+  const {  isAuthenticated } = useAuth0();
+  useEffect(() => {
+    if(isAuthenticated){
+      window.location.reload();
+    }
+  },[isAuthenticated]);
+
   const [datos, setDatos] = useState([]);
 
   let api = helpHttp();
@@ -25,6 +34,9 @@ export function Home(){
 
     return(
       <>
+        <Helmet>
+            <title>Inicio | Página de Fotos</title>
+        </Helmet>
         <div className="image-container">
           <img className="background-image" src={imagenCamara} alt=""/>
           <h1 className="overlay-text">Bienvenido a nuestro espacio, donde cada imagen es 

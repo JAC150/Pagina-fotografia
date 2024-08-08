@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import { useState, useEffect } from "react";
 import "./App.css";
 import { Login } from "./pages/Login";
 import { Home } from "./pages/Home";
@@ -21,11 +20,19 @@ import { ArticulosFavoritos } from "./pages/ArticulosFavoritos";
 import FormularioEntrevista from "./pages/FormularioEntrevista";
 import FormularioFotografo from "./pages/FormularioFotografo";
 import FormularioEditores from "./pages/FormularioEditores";
+import FormularioRetroalimentacion from "./pages/FormularioRetroalimentacion";
+import RespuestaRetroalimentacion from "./pages/RespuestaRetroalimentacion";
+import { EntrevistasPremium } from "./pages/EntrevistasPremium";
+import { TutorialesPremium } from "./pages/TutorialesPremium";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
-import PrivateRoute from "./components/PrivateRoute";
 import FormularioConcurso from "./pages/FormularioConcurso";
 import { EntrevistaDetalle } from "./pages/EntrevistaDetalle";
+import Perfil from "./pages/Perfil";
+import Boletines from "./pages/Boletines";
+import PodcastsList from './pages/PodcastsList';
+import PodcastsDetails from './pages/PodcastsDetails';
+import EpisodeDetails from './pages/EpisodeDetails';
 
 function AppContent() {
   const location = useLocation();
@@ -38,10 +45,13 @@ function AppContent() {
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<Home />} />
         <Route path="/tutoriales" element={<Tutoriales />} />
+        <Route path="/tutoriales-premium" element={<TutorialesPremium />} />
         <Route path="/libros" element={<Libros />} />
         <Route path="/equipo" element={<Equipo />} />
         <Route path="/entrevistas" element={<Entrevistas />} />
+        <Route path="/entrevistas-premium" element={<EntrevistasPremium />} />
         <Route path="/entrevistas/:id" element={<EntrevistaDetalle />} />
+        <Route path="/entrevistas-premium/:id" element={<EntrevistaDetalle />} />
         <Route path="/noticias" element={<Noticias />} />
         <Route path="/galerias" element={<Galerias />} />
         <Route path="/fotografos-favoritos" element={<FotografosFavoritos />} />
@@ -50,13 +60,20 @@ function AppContent() {
         <Route path="/formulario-entrevista" element={<FormularioEntrevista />} />
         <Route path="/formulario-fotografias" element={<FormularioFotografo />} />
         <Route path="/formulario-editores" element={<FormularioEditores />} />
+        <Route path="/formulario-retroalimentacion" element={<FormularioRetroalimentacion />} />
+        <Route path="/respuesta-retroalimentacion" element={<RespuestaRetroalimentacion />} />
         <Route path="/galerias/temas" element={<GaleriasTemas />}></Route>
         <Route path="/galerias/:id" element={<GaleriaFotos />}></Route>
         <Route path="/galerias/estilos" element={<GaleriasEstilos />}></Route>
         <Route path="/concursos" element={<Concursos />} />
         <Route path="/concursos/:id" element={<FormularioConcurso />} />
+        <Route path="/perfil" element={<Perfil />} />
+        <Route path="/boletines" element={<Boletines />} />
         <Route path="/articulos" element={<Articulos />} />
         <Route path="/articulos/:id" element={<ArticuloDetalle />} />
+        <Route path="/podcast" element={<PodcastsList />} />
+        <Route path="/podcast/:id" element={<PodcastsDetails />} />
+        <Route path="/episode/:id" element={<EpisodeDetails />} />
       </Routes>
       {showHeaderFooter && <Footer />}
     </>

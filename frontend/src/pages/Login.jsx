@@ -1,10 +1,13 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import '../components/estilos-login.css'
+import { Helmet } from 'react-helmet';
+import { useAuth0 } from '@auth0/auth0-react';
 
 export function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const { loginWithRedirect, isAuthenticated } = useAuth0();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -32,6 +35,9 @@ export function Login() {
 
   return (
     <>
+        <Helmet>
+            <title>Iniciar Sesión | Página de Fotos</title>
+        </Helmet>
         <div className="containerLogin mt-1">
             <input type="checkbox" id="check" />
             <div className="login form">
@@ -51,6 +57,9 @@ export function Login() {
                         onChange={(e) => setPassword(e.target.value)}
                         required />
                     <input type="submit" className="button" value="Login" />
+                    <button className="btn-primary" onClick={() => loginWithRedirect({ connection: 'google-oauth2' })}>
+                    <i className="fab fa-google"></i>&nbsp;Iniciar Sesión con Google
+                    </button>
                 </form>
             </div>
         </div>

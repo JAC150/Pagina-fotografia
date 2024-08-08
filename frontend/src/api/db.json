@@ -5,7 +5,10 @@
       "name": "John Doe",
       "email": "usuario1@example.com",
       "password": "password123",
-      "tipo": "lector"
+      "tipo": "lector",
+      "suscrito": true,
+      "premium": true,
+      "boletines": true
     },
     {
       "id": "2",
@@ -18,28 +21,40 @@
         4,
         1
       ],
-      "foto": "../images/fotografos/attractive-1869761_1280.jpg"
+      "foto": "../images/fotografos/attractive-1869761_1280.jpg",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
     },
     {
       "id": "3",
       "name": "Emily Johnson",
       "email": "usuario3@example.com",
       "password": "password123",
-      "tipo": "lector"
+      "tipo": "lector",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
     },
     {
       "id": "4",
       "name": "Michael Brown",
       "email": "usuario4@example.com",
       "password": "password123",
-      "tipo": "lector"
+      "tipo": "lector",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
     },
     {
       "id": "5",
       "name": "Jessica Davis",
       "email": "usuario5@example.com",
       "password": "password123",
-      "tipo": "editor"
+      "tipo": "editor",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
     },
     {
       "id": "6",
@@ -51,21 +66,30 @@
         8,
         1
       ],
-      "foto": "../images/fotografos/face-1391628_1280.jpg"
+      "foto": "../images/fotografos/face-1391628_1280.jpg",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
     },
     {
       "id": "7",
       "name": "Sarah Wilson",
       "email": "usuario7@example.com",
       "password": "password123",
-      "tipo": "lector"
+      "tipo": "lector",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
     },
     {
       "id": "8",
       "name": "David Moore",
       "email": "usuario8@example.com",
       "password": "password123",
-      "tipo": "lector"
+      "tipo": "lector",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
     },
     {
       "id": "9",
@@ -78,21 +102,30 @@
         10,
         1
       ],
-      "foto": "../images/fotografos/drinking-1839680_1280.jpg"
+      "foto": "../images/fotografos/drinking-1839680_1280.jpg",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
     },
     {
       "id": "10",
       "name": "Robert Anderson",
       "email": "usuario10@example.com",
       "password": "password123",
-      "tipo": "lector"
+      "tipo": "lector",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
     },
     {
       "id": "11",
       "name": "Megan Thomas",
       "email": "usuario11@example.com",
       "password": "password123",
-      "tipo": "lector"
+      "tipo": "lector",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
     },
     {
       "id": "12",
@@ -104,21 +137,30 @@
         14,
         1
       ],
-      "foto": "../images/fotografos/fashion-4951644_1280.jpg"
+      "foto": "../images/fotografos/fashion-4951644_1280.jpg",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
     },
     {
       "id": "13",
       "name": "Emma White",
       "email": "usuario13@example.com",
       "password": "password123",
-      "tipo": "lector"
+      "tipo": "lector",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
     },
     {
       "id": "14",
       "name": "Anthony Harris",
       "email": "usuario14@example.com",
       "password": "password123",
-      "tipo": "lector"
+      "tipo": "lector",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
     },
     {
       "id": "15",
@@ -131,14 +173,40 @@
         8,
         1
       ],
-      "foto": "../images/fotografos/hiking-8216486_1280.jpg"
+      "foto": "../images/fotografos/hiking-8216486_1280.jpg",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
     },
     {
       "id": "16",
       "name": "Alexander Lee",
       "email": "usuario16@example.com",
       "password": "password123",
-      "tipo": "lector"
+      "tipo": "lector",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
+    },
+    {
+      "id": "17",
+      "name": "Karim Hernandez",
+      "email": "karimhernandez233@gmail.com",
+      "password": "",
+      "tipo": "lector",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
+    },
+    {
+      "id": "18",
+      "name": "Maynor Aguilera Osorto",
+      "email": "maynoraguileraosorto@gmail.com",
+      "password": "",
+      "tipo": "lector",
+      "suscrito": false,
+      "premium": false,
+      "boletines": false
     }
   ],
   "updates": [
@@ -5631,7 +5699,7 @@
   ],
   "favoritos": [
     {
-      "id": "1",
+      "id": "51",
       "nombre": "Entendiendo la Exposición",
       "autor": "Bryan Peterson",
       "descripcion": "Una guía completa para dominar la exposición para fotógrafos.",
@@ -5719,7 +5787,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": "52",
       "nombre": "El Taller de Fotografía de Paisajes",
       "autor": "Ross Hoddinott",
       "descripcion": "Una guía práctica para dominar las técnicas de fotografía de paisajes.",
@@ -5797,7 +5865,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": "53",
       "nombre": "La Fotografía en Blanco y Negro: Técnicas y Estilos",
       "autor": "David Lee",
       "descripcion": "Explora las técnicas y estilos para crear fotografías impactantes en blanco y negro.",
@@ -5871,7 +5939,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": "54",
       "nombre": "Fotografía Macro: Explorando el Mundo en Miniatura",
       "autor": "Evelyn Walker",
       "descripcion": "Descubre cómo capturar los detalles más pequeños con la fotografía macro.",
@@ -5945,7 +6013,7 @@
       ]
     },
     {
-      "id": "5",
+      "id": "55",
       "nombre": "Fotografía de Retratos: Capturando la Personalidad",
       "autor": "Sofia López",
       "descripcion": "Técnicas para capturar retratos que muestren la verdadera esencia del sujeto.",
@@ -6019,7 +6087,7 @@
       ]
     },
     {
-      "id": "6",
+      "id": "56",
       "nombre": "Fotografía de Paisajes: Capturando la Grandeza de la Naturaleza",
       "autor": "Ricardo Pérez",
       "descripcion": "Técnicas para capturar paisajes impresionantes que muestran la belleza del entorno natural.",
@@ -6093,7 +6161,7 @@
       ]
     },
     {
-      "id": "7",
+      "id": "57",
       "nombre": "Fotografía Nocturna: Capturando la Magia de la Noche",
       "autor": "Natalia Fernández",
       "descripcion": "Descubre técnicas y consejos para capturar imágenes impresionantes en condiciones de poca luz.",
@@ -6167,7 +6235,7 @@
       ]
     },
     {
-      "id": "8",
+      "id": "58",
       "nombre": "Fotografía de Arquitectura: Capturando Espacios y Estructuras",
       "autor": "Fernando González",
       "descripcion": "Técnicas y consejos para capturar la belleza y complejidad de la arquitectura.",
@@ -6241,7 +6309,7 @@
       ]
     },
     {
-      "id": "9",
+      "id": "59",
       "nombre": "Fotografía de Deportes: Capturando la Acción en Movimiento",
       "autor": "Carlos Fernández",
       "descripcion": "Técnicas y consejos para capturar la acción y emoción en la fotografía deportiva.",
@@ -6315,7 +6383,7 @@
       ]
     },
     {
-      "id": "10",
+      "id": "60",
       "nombre": "Fotografía de Animales Domésticos: Capturando a Nuestros Amigos Peludos",
       "autor": "Laura Ramírez",
       "descripcion": "Consejos para fotografiar mascotas de manera atractiva.",
@@ -6373,68 +6441,6 @@
         {
           "usuario": "Marcelo Pérez",
           "comentario": "Aprovechar la luz natural no solo mejora la calidad de las fotos, sino que también ayuda a capturar el verdadero color y textura del pelaje de las mascotas, haciéndolas más atractivas."
-        }
-      ]
-    },
-    {
-      "id": "11",
-      "nombre": "Fotografía de Moda Urbana: Capturando Estilo en la Calle",
-      "autor": "Valeria Díaz",
-      "descripcion": "Consejos para fotografiar moda en entornos urbanos.",
-      "sections": [
-        {
-          "heading": "Preparación y Planificación",
-          "content": "Elige lugares con fondos interesantes y texturas variadas. Colabora con modelos y estilistas para planificar atuendos que se complementen con el entorno urbano."
-        },
-        {
-          "heading": "Técnicas de Fotografía",
-          "content": "Usa luz natural para lograr un look más auténtico y dinámico. Experimenta con diferentes aperturas y velocidades de obturación para controlar la profundidad de campo y el movimiento."
-        },
-        {
-          "heading": "Capturando la Esencia Urbana",
-          "content": "Incorpora elementos del entorno urbano, como graffiti, arquitectura y tráfico, para añadir contexto y carácter a tus fotos. Busca momentos espontáneos y poses naturales para capturar la energía de la moda urbana."
-        }
-      ],
-      "comentarios": [
-        {
-          "usuario": "Isabel Torres",
-          "comentario": "Elegir lugares con fondos interesantes es clave para resaltar la moda en entornos urbanos. Considera lugares con colores y texturas que complementen y contrasten con los atuendos de los modelos."
-        },
-        {
-          "usuario": "Roberto Gómez",
-          "comentario": "Colaborar estrechamente con los modelos y estilistas puede asegurar que la visión del proyecto se traduzca bien en las fotos. La comunicación clara sobre el estilo y los atuendos es esencial."
-        },
-        {
-          "usuario": "Sofía Moreno",
-          "comentario": "La luz natural puede añadir un toque auténtico a las fotos urbanas. Aprovecha las horas doradas para obtener una iluminación cálida y suave que complemente la estética urbana."
-        },
-        {
-          "usuario": "Miguel Ruiz",
-          "comentario": "Experimentar con diferentes aperturas y velocidades de obturación es fundamental para controlar la profundidad de campo y el movimiento. Esto puede ayudar a enfocar en el modelo mientras se mantiene el entorno interesante."
-        },
-        {
-          "usuario": "Laura Fernández",
-          "comentario": "Incorporar elementos del entorno urbano como graffiti y arquitectura puede añadir un contexto visual atractivo. Esto no solo enriquece las fotos, sino que también cuenta una historia sobre el estilo urbano."
-        },
-        {
-          "usuario": "Javier Martínez",
-          "comentario": "Buscar momentos espontáneos y poses naturales puede capturar la verdadera esencia de la moda urbana. Evita poses demasiado rígidas para mantener la energía y autenticidad en las fotos."
-        },
-        {
-          "usuario": "Carmen Pérez",
-          "comentario": "La planificación de las sesiones en diferentes momentos del día puede ofrecer variaciones en la iluminación y el ambiente. Esto permite capturar una gama más amplia de atmósferas urbanas."
-        },
-        {
-          "usuario": "Daniela González",
-          "comentario": "La combinación de elementos urbanos y moda puede ser poderosa. Asegúrate de que los atuendos se integren bien con el entorno para crear un contraste visual impactante."
-        },
-        {
-          "usuario": "Tomás Álvarez",
-          "comentario": "Las técnicas de fotografía, como el uso de lentes gran angulares, pueden ayudar a capturar más del entorno urbano en el encuadre, añadiendo dinamismo a las imágenes."
-        },
-        {
-          "usuario": "Valentina Ramírez",
-          "comentario": "Es importante tener en cuenta la seguridad y el permiso para fotografiar en ciertos lugares urbanos. Asegúrate de obtener los permisos necesarios y de respetar las normas locales."
         }
       ]
     }
@@ -6837,6 +6843,940 @@
         {
           "pregunta": "¿Puedes compartir alguna experiencia memorable de tu trabajo en fotografía de animales salvajes?",
           "respuesta": "Una experiencia memorable fue fotografiar un grupo de leones en la sabana africana. Fue un momento impresionante ver a estos majestuosos animales en su entorno natural, interactuando y mostrando su comportamiento social. Capturar esas imágenes no solo fue un desafío técnico, sino también una experiencia profundamente enriquecedora que reafirmó mi pasión por la fotografía de vida salvaje."
+        }
+      ]
+    }
+  ],
+  "entrevistas-premium": [
+    {
+      "id": "23",
+      "tema": "Fotografía Submarina",
+      "fotografo": "Laura Hernández",
+      "foto": "../images/fotografos/ai-generated-8725335_1280.png",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Laura. La fotografía submarina es fascinante pero también desafiante. ¿Qué te motivó a especializarte en este campo?",
+          "respuesta": "Hola. Siempre me ha atraído el mar y la vida marina. La fotografía submarina me permite capturar la belleza y la diversidad de los ecosistemas submarinos, y compartir esas maravillas con quienes no tienen la oportunidad de bucear. Es un campo que combina mi amor por la fotografía y el buceo."
+        },
+        {
+          "pregunta": "¿Qué equipo usas para tus sesiones de fotografía submarina?",
+          "respuesta": "Utilizo cámaras especializadas resistentes al agua y carcasas impermeables para cámaras DSLR. También empleo luces estroboscópicas para iluminar las profundidades marinas, donde la luz natural es escasa. El equipo adecuado es crucial para obtener imágenes claras y detalladas en un entorno tan desafiante."
+        },
+        {
+          "pregunta": "¿Cómo te preparas para una sesión de fotografía submarina?",
+          "respuesta": "La preparación incluye una investigación exhaustiva sobre el sitio de buceo y la vida marina que espero encontrar. También es esencial verificar el equipo de buceo y fotografía antes de cada inmersión. La seguridad es una prioridad, así que siempre buceo con un compañero y sigo las prácticas de buceo seguro."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "tema": "Fotografía de Paisajes Urbanos",
+      "fotografo": "Miguel Torres",
+      "foto": "../images/fotografos/baloch-6693129_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Miguel. La fotografía de paisajes urbanos captura la esencia de las ciudades. ¿Qué te atrae de este tipo de fotografía?",
+          "respuesta": "Hola. Me fascina la energía y la diversidad de las ciudades. Cada ciudad tiene su propia personalidad y ritmo, y la fotografía de paisajes urbanos me permite capturar esas características únicas. Me gusta explorar diferentes perspectivas y jugar con la luz y las sombras para crear imágenes dinámicas."
+        },
+        {
+          "pregunta": "¿Qué técnicas utilizas para capturar la arquitectura y la vida urbana?",
+          "respuesta": "Utilizo una combinación de gran angular para capturar la amplitud de los paisajes urbanos y teleobjetivos para enfocarme en detalles arquitectónicos. La hora dorada y la hora azul son momentos ideales para fotografiar, ya que la luz suave y cálida resalta las estructuras. Además, suelo experimentar con exposiciones largas para capturar el movimiento y la vida de la ciudad."
+        },
+        {
+          "pregunta": "¿Cómo abordas la postproducción en la fotografía de paisajes urbanos?",
+          "respuesta": "La postproducción es crucial para resaltar los detalles y la atmósfera de las fotos urbanas. Ajusto la exposición, el contraste y la saturación para equilibrar la imagen y resaltar los elementos clave. También utilizo técnicas de corrección de perspectiva para asegurar que las líneas arquitectónicas sean precisas."
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "tema": "Fotografía de Moda Editorial",
+      "fotografo": "Isabel Sánchez",
+      "foto": "../images/fotografos/ai-generated-8785760_1280.png",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Isabel. La fotografía de moda editorial requiere creatividad y precisión. ¿Cómo desarrollas tus conceptos para las sesiones?",
+          "respuesta": "Hola. Desarrollar un concepto comienza con una investigación profunda sobre las tendencias actuales y la inspiración artística. Trabajo estrechamente con estilistas, maquilladores y diseñadores para crear una visión cohesiva. La planificación y la comunicación son esenciales para asegurarnos de que todos los elementos se integren perfectamente durante la sesión."
+        },
+        {
+          "pregunta": "¿Qué tipo de iluminación prefieres utilizar en la fotografía de moda editorial?",
+          "respuesta": "Prefiero una iluminación que complemente la estética de la sesión. Utilizo tanto luz natural como luces de estudio, dependiendo del ambiente que quiero crear. Las luces suaves y difusas son ideales para un look más etéreo, mientras que las luces duras pueden crear contrastes dramáticos y resaltar texturas."
+        },
+        {
+          "pregunta": "¿Cómo diriges a los modelos para obtener las poses y expresiones deseadas?",
+          "respuesta": "La dirección de modelos es una parte fundamental de mi trabajo. Me aseguro de comunicar claramente la visión y el concepto de la sesión. Uso referencias visuales y doy indicaciones específicas sobre posturas y expresiones. Crear un ambiente de confianza y comodidad permite que los modelos se expresen de manera más natural y auténtica."
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "tema": "Fotografía de Naturaleza y Vida Silvestre",
+      "fotografo": "Andrés Gómez",
+      "foto": "../images/fotografos/handsome-1805532_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Andrés. Capturar la vida silvestre en su hábitat natural es increíblemente inspirador. ¿Qué te llevó a especializarte en este tipo de fotografía?",
+          "respuesta": "Hola. Desde pequeño he tenido una conexión profunda con la naturaleza. La fotografía de vida silvestre me permite documentar y compartir la belleza y la importancia de los ecosistemas naturales. Es una forma de crear conciencia sobre la conservación y el respeto por la naturaleza."
+        },
+        {
+          "pregunta": "¿Qué equipo y técnicas utilizas para fotografiar animales en su entorno natural?",
+          "respuesta": "Utilizo cámaras con teleobjetivos largos para capturar imágenes a distancia sin perturbar a los animales. La paciencia es crucial, ya que a menudo hay que esperar horas para el momento perfecto. También empleo técnicas de camuflaje y estudio el comportamiento animal para anticipar sus movimientos y obtener mejores tomas."
+        },
+        {
+          "pregunta": "¿Puedes compartir alguna experiencia memorable de tus sesiones de fotografía de vida silvestre?",
+          "respuesta": "Una de las experiencias más memorables fue fotografiar elefantes en África. Ver a estas majestuosas criaturas en su entorno natural fue increíble. Pude capturar momentos íntimos y comportamientos fascinantes que reflejan la complejidad y la belleza de la vida silvestre."
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "tema": "Fotografía de Comida",
+      "fotografo": "Carla Muñoz",
+      "foto": "../images/fotografos/ai-generated-8931054_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Carla. La fotografía de comida puede hacer que los platos se vean irresistibles. ¿Cómo logras capturar la esencia y el sabor de los alimentos en tus fotos?",
+          "respuesta": "Hola. Capturar la esencia de los alimentos comienza con una buena presentación y estilismo. Trabajo estrechamente con chefs y estilistas de alimentos para crear composiciones atractivas. La iluminación es clave para resaltar las texturas y los colores vibrantes de los platos. Utilizo luz natural siempre que es posible para obtener un aspecto fresco y apetitoso."
+        },
+        {
+          "pregunta": "¿Qué técnicas de iluminación prefieres para la fotografía de alimentos?",
+          "respuesta": "Prefiero la luz natural, especialmente la luz suave y difusa que entra por una ventana. Cuando uso luz artificial, empleo difusores y reflectores para suavizar las sombras y crear un efecto natural. La iluminación lateral o trasera puede resaltar la textura y darle profundidad a la imagen."
+        },
+        {
+          "pregunta": "¿Cómo te aseguras de que los alimentos se vean frescos y apetitosos durante la sesión?",
+          "respuesta": "La preparación es crucial. Los alimentos deben ser estilizados rápidamente y fotografiados inmediatamente para evitar que se vean marchitos o poco apetitosos. Utilizo trucos como rociar agua o aceite para darle brillo a los ingredientes y mantener la frescura visual. La coordinación con el equipo de cocina y estilismo es esencial para lograr el mejor resultado."
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "tema": "Fotografía Documental",
+      "fotografo": "Ricardo Pérez",
+      "foto": "../images/fotografos/man-909078_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Ricardo. La fotografía documental cuenta historias poderosas. ¿Qué te inspira a capturar estos momentos y narrativas?",
+          "respuesta": "Hola. Me inspira la capacidad de la fotografía documental para contar historias reales y conmovedoras. Capturar la vida cotidiana y los eventos significativos de manera honesta y respetuosa permite crear una conexión profunda con el espectador y fomentar la comprensión y la empatía."
+        },
+        {
+          "pregunta": "¿Qué técnicas utilizas para mantener la autenticidad en tus fotos documentales?",
+          "respuesta": "Para mantener la autenticidad, me enfoco en capturar momentos espontáneos y naturales. Paso tiempo con las personas y las comunidades que fotografío para ganarme su confianza y entender su vida y contexto. Evito la puesta en escena y trato de ser lo menos intrusivo posible para documentar la realidad tal como es."
+        },
+        {
+          "pregunta": "¿Cómo manejas los desafíos éticos y emocionales de la fotografía documental?",
+          "respuesta": "Los desafíos éticos y emocionales son una parte importante de este trabajo. Siempre obtengo el consentimiento de las personas que fotografío y respeto su privacidad y dignidad. La empatía y el respeto son esenciales para abordar temas sensibles y emocionales. A veces, es difícil presenciar situaciones difíciles, pero es crucial para contar historias que necesitan ser escuchadas."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "tema": "Fotografía de Retrato",
+      "fotografo": "Ana López",
+      "foto": "../images/fotografos/woman-1064664_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Ana. La fotografía de retrato puede capturar la esencia de una persona. ¿Qué te atrae de este tipo de fotografía?",
+          "respuesta": "Hola. Me atrae la capacidad de la fotografía de retrato para revelar la personalidad y la emoción de una persona. Cada rostro cuenta una historia, y me encanta la oportunidad de capturar esos momentos únicos y significativos. Trabajar con personas y ayudarles a sentirse cómodas y seguras frente a la cámara es muy gratificante."
+        },
+        {
+          "pregunta": "¿Qué técnicas utilizas para lograr retratos impactantes y emotivos?",
+          "respuesta": "La comunicación y la conexión con la persona son esenciales. Antes de la sesión, converso con ellos para entender su personalidad y lo que quieren transmitir. Durante la sesión, utilizo técnicas de iluminación para resaltar sus rasgos y crear una atmósfera que complemente su carácter. La luz natural y las luces de estudio suaves son mis favoritas para retratos."
+        },
+        {
+          "pregunta": "¿Puedes compartir algún consejo para fotógrafos que están comenzando en la fotografía de retrato?",
+          "respuesta": "Mi consejo principal es practicar la comunicación y la empatía. Hacer que la persona se sienta cómoda es crucial para capturar retratos auténticos. Experimenta con diferentes ángulos y luces para encontrar lo que mejor resalte las características únicas de cada individuo. No tengas miedo de dirigir y dar feedback, pero también escucha y adapta tus ideas a las de la persona retratada."
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "tema": "Fotografía de Deportes",
+      "fotografo": "Javier Martínez",
+      "foto": "../images/fotografos/man-2607437_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Javier. La fotografía de deportes captura momentos de acción y emoción. ¿Qué te llevó a especializarte en este campo?",
+          "respuesta": "Hola. Siempre he sido un apasionado del deporte y la fotografía. La combinación de ambos me permite capturar la energía, el esfuerzo y la emoción de los atletas. La fotografía de deportes es desafiante y requiere rapidez y precisión, lo que lo hace aún más emocionante."
+        },
+        {
+          "pregunta": "¿Qué equipo y técnicas utilizas para fotografiar eventos deportivos?",
+          "respuesta": "Utilizo cámaras con alta velocidad de obturación y ráfaga rápida para capturar momentos fugaces. Los teleobjetivos son esenciales para acercarme a la acción sin interferir. La anticipación y el conocimiento del deporte son cruciales para predecir los movimientos y capturar los momentos clave."
+        },
+        {
+          "pregunta": "¿Cuál ha sido uno de los momentos más memorables que has capturado en la fotografía de deportes?",
+          "respuesta": "Uno de los momentos más memorables fue capturar la celebración de un gol decisivo en un partido de fútbol. La emoción en los rostros de los jugadores y la reacción del público fueron increíbles. Esos momentos de pura alegría y triunfo son los que hacen que la fotografía de deportes sea tan gratificante."
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "tema": "Fotografía de Arquitectura",
+      "fotografo": "Fernando Ruiz",
+      "foto": "../images/fotografos/man-5914350_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Fernando. La fotografía de arquitectura requiere precisión y un buen ojo para el detalle. ¿Qué te atrae de este tipo de fotografía?",
+          "respuesta": "Hola. Me atrae la habilidad de la fotografía de arquitectura para resaltar la belleza y la ingeniería de las estructuras. Cada edificio tiene su propia historia y carácter, y me encanta capturar esos elementos a través de mi lente. La combinación de arte y técnica en la arquitectura es fascinante."
+        },
+        {
+          "pregunta": "¿Qué técnicas utilizas para capturar la esencia de los edificios y estructuras?",
+          "respuesta": "Utilizo lentes gran angular para capturar la totalidad de las estructuras y sus entornos. La luz natural es fundamental para resaltar las texturas y los detalles arquitectónicos. También empleo técnicas de composición como la simetría y las líneas de fuga para crear imágenes impactantes y equilibradas."
+        },
+        {
+          "pregunta": "¿Puedes compartir algún proyecto arquitectónico que haya sido particularmente inspirador para ti?",
+          "respuesta": "Un proyecto que me inspiró mucho fue la fotografía de la Sagrada Familia en Barcelona. La complejidad y la belleza de esta estructura son asombrosas. Capturar los detalles y la majestuosidad de esta obra de arte arquitectónica fue una experiencia increíble y un verdadero honor."
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "tema": "Fotografía de Viajes",
+      "fotografo": "María Castillo",
+      "foto": "../images/fotografos/woman-1905011_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, María. La fotografía de viajes te lleva a lugares fascinantes. ¿Qué te motiva a capturar estos destinos?",
+          "respuesta": "Hola. La fotografía de viajes me permite explorar y compartir la belleza y la diversidad del mundo. Cada destino tiene su propia cultura, paisaje y historia, y me encanta capturar esos elementos únicos. Viajar y fotografiar es una forma de aprender y crecer constantemente, y me motiva la posibilidad de inspirar a otros a través de mis imágenes."
+        },
+        {
+          "pregunta": "¿Qué equipo llevas contigo en tus viajes para asegurarte de estar preparada para cualquier situación fotográfica?",
+          "respuesta": "Llevo una cámara versátil con varios lentes, incluyendo un gran angular y un teleobjetivo. También llevo un trípode compacto y ligero para estabilizar mis tomas en diferentes condiciones. Los filtros de lentes, como el polarizador y el ND, son útiles para controlar la luz y mejorar las imágenes. La portabilidad y la durabilidad del equipo son claves cuando se viaja."
+        },
+        {
+          "pregunta": "¿Cómo te preparas para fotografiar un nuevo destino y qué consejos tienes para otros fotógrafos de viajes?",
+          "respuesta": "Investigo sobre el destino antes de ir, incluyendo su cultura, puntos de interés y mejores momentos para fotografiar. Es importante respetar la cultura y las personas locales. Mi consejo es ser curioso y estar dispuesto a explorar fuera de los caminos habituales. La paciencia y la apertura a nuevas experiencias son esenciales para capturar la verdadera esencia de un lugar."
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "tema": "Fotografía de Retratos en Blanco y Negro",
+      "fotografo": "Gabriel Vargas",
+      "foto": "../images/fotografos/man-6060365_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Gabriel. Los retratos en blanco y negro tienen un encanto especial. ¿Qué te atrae de esta forma de fotografía?",
+          "respuesta": "Hola. El blanco y negro tiene la capacidad de resaltar las emociones y los detalles sin la distracción del color. Me encanta cómo puede capturar la esencia de una persona de manera tan pura y directa. Es una forma de arte atemporal que siempre me ha fascinado."
+        },
+        {
+          "pregunta": "¿Qué técnicas utilizas para lograr un retrato en blanco y negro impactante?",
+          "respuesta": "La iluminación y el contraste son cruciales. Utilizo luz dura para crear sombras profundas y resaltar las texturas del rostro. También es importante prestar atención a la composición y los tonos para asegurar que la imagen tenga un buen equilibrio y dinamismo."
+        },
+        {
+          "pregunta": "¿Puedes compartir algún consejo para fotógrafos que quieren empezar con los retratos en blanco y negro?",
+          "respuesta": "Mi consejo es experimentar y jugar con la luz y las sombras. No tengas miedo de hacer ajustes en la postproducción para resaltar los contrastes y detalles. Observa el trabajo de grandes maestros del blanco y negro y trata de entender cómo utilizan la luz y la composición en sus fotografías."
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "tema": "Fotografía de Bodas",
+      "fotografo": "Sofía Castillo",
+      "foto": "../images/fotografos/woman-3328843_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Sofía. Capturar momentos especiales en las bodas es una gran responsabilidad. ¿Qué te motiva a ser fotógrafa de bodas?",
+          "respuesta": "Hola. Me motiva la oportunidad de capturar momentos únicos y llenos de emoción. Cada boda es diferente y está llena de historias y detalles especiales. Es un privilegio poder documentar esos momentos y crear recuerdos duraderos para las parejas."
+        },
+        {
+          "pregunta": "¿Cómo te preparas para una sesión de fotografía de bodas?",
+          "respuesta": "La preparación es clave. Me reúno con la pareja para entender sus expectativas y conocer los detalles del evento. También visito el lugar de la boda con antelación para planificar las tomas y familiarizarme con la iluminación y los espacios. Tener un plan y estar bien organizada es esencial para capturar todos los momentos importantes."
+        },
+        {
+          "pregunta": "¿Qué equipo consideras imprescindible para fotografiar bodas?",
+          "respuesta": "Utilizo dos cámaras para no tener que cambiar lentes constantemente, lo que ahorra tiempo y evita perder momentos cruciales. Los lentes principales que uso son un 24-70mm y un 70-200mm, que cubren una amplia gama de situaciones. También llevo flashes externos y difusores para controlar la luz en diferentes escenarios."
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "tema": "Fotografía de Animales Domésticos",
+      "fotografo": "Juan González",
+      "foto": "../images/fotografos/man-6462329_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Juan. La fotografía de animales domésticos es encantadora. ¿Qué te llevó a especializarte en este campo?",
+          "respuesta": "Hola. Siempre he tenido una conexión especial con los animales. Capturar su personalidad y las relaciones que tienen con sus dueños es muy gratificante. Los animales tienen expresiones y momentos únicos que son un placer de fotografiar."
+        },
+        {
+          "pregunta": "¿Qué técnicas utilizas para lograr buenas fotos de animales domésticos?",
+          "respuesta": "La paciencia es clave. Trabajo en un ambiente tranquilo y dejo que los animales se sientan cómodos. Utilizo juguetes y golosinas para captar su atención y hacer que miren hacia la cámara. La luz natural es mi preferida, ya que crea un ambiente más relajado y natural."
+        },
+        {
+          "pregunta": "¿Tienes algún consejo para fotógrafos que quieren empezar a fotografiar animales domésticos?",
+          "respuesta": "Mi consejo es ser paciente y flexible. Los animales no siempre posan como uno quiere, así que es importante estar preparado para capturar momentos espontáneos. Conocer el comportamiento animal y tener una actitud calmada ayuda mucho a obtener buenas fotos."
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "tema": "Fotografía de Desnudos Artísticos",
+      "fotografo": "Patricia Romero",
+      "foto": "../images/fotografos/woman-7609421_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Patricia. La fotografía de desnudos artísticos es un campo delicado. ¿Qué te inspira a trabajar en este género?",
+          "respuesta": "Hola. Me inspira la belleza y la forma del cuerpo humano. La fotografía de desnudos artísticos permite explorar la expresión y la estética de manera profunda. Es un género que requiere mucha sensibilidad y respeto, y me motiva la capacidad de crear imágenes poderosas y significativas."
+        },
+        {
+          "pregunta": "¿Qué consideraciones tienes en cuenta al fotografiar desnudos artísticos?",
+          "respuesta": "La comodidad y el consentimiento del modelo son primordiales. Es importante tener una comunicación abierta y clara sobre las expectativas y los límites. La iluminación y la composición son esenciales para resaltar las formas y crear una atmósfera adecuada. Trabajo mucho con luces suaves y sombras para crear un efecto dramático y elegante."
+        },
+        {
+          "pregunta": "¿Qué consejo le darías a alguien que quiera empezar en la fotografía de desnudos artísticos?",
+          "respuesta": "Mi consejo es comenzar con modelos que se sientan cómodos y tengan experiencia. Es crucial construir una relación de confianza y respeto. Investiga y estudia la anatomía y la luz para mejorar tus habilidades técnicas. Siempre trabaja de manera profesional y ética."
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "tema": "Fotografía de Aves",
+      "fotografo": "Luis Fernández",
+      "foto": "../images/fotografos/man-6814448_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Luis. La fotografía de aves requiere paciencia y precisión. ¿Qué te llevó a especializarte en este campo?",
+          "respuesta": "Hola. Siempre me han fascinado las aves por su diversidad y belleza. Fotografiar aves es un desafío que combina mi amor por la naturaleza y la fotografía. Cada especie tiene su comportamiento y hábitat únicos, lo que hace que cada sesión sea una nueva aventura."
+        },
+        {
+          "pregunta": "¿Qué equipo consideras esencial para la fotografía de aves?",
+          "respuesta": "Un teleobjetivo es imprescindible para capturar aves a distancia sin asustarlas. Utilizo un lente de al menos 400mm. También llevo un trípode o un monopié para estabilizar la cámara. La vestimenta de camuflaje y la paciencia son igual de importantes para acercarse a las aves sin perturbarlas."
+        },
+        {
+          "pregunta": "¿Tienes algún consejo para alguien que quiera empezar en la fotografía de aves?",
+          "respuesta": "Mi consejo es investigar sobre las aves y sus comportamientos. Conocer sus hábitos te ayudará a anticipar sus movimientos. La paciencia y la observación son claves. Comienza en lugares donde las aves están acostumbradas a la presencia humana, como parques y reservas naturales."
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "tema": "Fotografía de Moda Infantil",
+      "fotografo": "Mariana Díaz",
+      "foto": "../images/fotografos/woman-8859608_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Mariana. La fotografía de moda infantil combina creatividad y ternura. ¿Qué te inspira a trabajar con niños en este campo?",
+          "respuesta": "Hola. Me inspira la espontaneidad y la energía de los niños. Trabajar en moda infantil permite capturar su inocencia y alegría de una manera creativa y divertida. Es un desafío mantener su atención, pero también es muy gratificante ver sus personalidades brillar a través de las fotos."
+        },
+        {
+          "pregunta": "¿Qué técnicas utilizas para mantener la atención de los niños durante una sesión de fotos?",
+          "respuesta": "Utilizo juegos y actividades para mantener a los niños entretenidos y cómodos. Es importante crear un ambiente relajado y divertido. Trabajo con los padres para que los niños se sientan seguros. La paciencia y la flexibilidad son claves para obtener buenas fotos."
+        },
+        {
+          "pregunta": "¿Tienes algún consejo para fotógrafos que quieren empezar en la fotografía de moda infantil?",
+          "respuesta": "Mi consejo es ser creativo y flexible. Trabajar con niños requiere adaptación y paciencia. Asegúrate de que el ambiente sea seguro y cómodo para ellos. También es importante tener una buena comunicación con los padres y el equipo de estilismo."
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "tema": "Fotografía de Eventos Culturales",
+      "fotografo": "Carlos Jiménez",
+      "foto": "../images/fotografos/man-8250477_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Carlos. La fotografía de eventos culturales documenta momentos significativos. ¿Qué te motiva a capturar estos eventos?",
+          "respuesta": "Hola. Me motiva la oportunidad de documentar y compartir la riqueza cultural y las tradiciones de diferentes comunidades. Los eventos culturales están llenos de vida, colores y emociones, y capturar esos momentos es una forma de preservar y celebrar la diversidad cultural."
+        },
+        {
+          "pregunta": "¿Qué equipo utilizas para fotografiar eventos culturales?",
+          "respuesta": "Utilizo una cámara versátil con lentes de zoom para adaptarme a diferentes situaciones y distancias. Un lente de 24-70mm y un 70-200mm son mis opciones principales. También llevo un flash externo para situaciones de poca luz y un equipo de audio para grabar sonidos y entrevistas."
+        },
+        {
+          "pregunta": "¿Tienes algún consejo para alguien que quiera empezar en la fotografía de eventos culturales?",
+          "respuesta": "Mi consejo es investigar y entender la cultura y las tradiciones del evento antes de asistir. Ser respetuoso y discreto es fundamental. Captura no solo los momentos principales, sino también los detalles y las interacciones entre las personas. La empatía y el respeto son esenciales para documentar estos eventos de manera auténtica y significativa."
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "tema": "Fotografía de Danza",
+      "fotografo": "Elena Ramírez",
+      "foto": "../images/fotografos/woman-8859615_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Elena. La fotografía de danza captura la gracia y el movimiento. ¿Qué te atrae de este tipo de fotografía?",
+          "respuesta": "Hola. Me atrae la belleza y la emoción del movimiento en la danza. Capturar la expresión corporal y la energía de los bailarines es un desafío emocionante. Cada gesto y cada salto cuentan una historia, y me encanta la oportunidad de congelar esos momentos en el tiempo."
+        },
+        {
+          "pregunta": "¿Qué técnicas utilizas para capturar el movimiento en la danza?",
+          "respuesta": "Utilizo una alta velocidad de obturación para congelar el movimiento y capturar detalles precisos. También experimento con exposiciones largas para crear efectos de desenfoque y resaltar el flujo del movimiento. La composición y el enfoque en los detalles del cuerpo son esenciales para transmitir la gracia y la fuerza de los bailarines."
+        },
+        {
+          "pregunta": "¿Tienes algún consejo para fotógrafos que quieran empezar en la fotografía de danza?",
+          "respuesta": "Mi consejo es asistir a ensayos y practicar en diferentes condiciones de luz y movimiento. Conocer la coreografía y anticipar los movimientos te ayudará a capturar los momentos clave. Trabaja de cerca con los bailarines y el director para entender su visión y lograr las mejores tomas posibles."
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "tema": "Fotografía de Naturaleza Nocturna",
+      "fotografo": "Ricardo Navarro",
+      "foto": "../images/fotografos/portrait-3123456_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Ricardo. La fotografía de naturaleza nocturna revela un mundo diferente. ¿Qué te motiva a capturar la naturaleza de noche?",
+          "respuesta": "Hola. Me motiva la tranquilidad y la belleza misteriosa de la naturaleza por la noche. La fotografía nocturna ofrece una perspectiva única y desafiante, donde la luz y la oscuridad juegan un papel crucial. Capturar las estrellas, la luna y los paisajes bajo la luz nocturna es una experiencia mágica."
+        },
+        {
+          "pregunta": "¿Qué equipo consideras esencial para la fotografía de naturaleza nocturna?",
+          "respuesta": "Un trípode estable es imprescindible para largas exposiciones. Utilizo una cámara con buena capacidad en condiciones de poca luz y lentes rápidos con aperturas amplias. También llevo una linterna frontal para moverme en la oscuridad y ajustar la configuración de la cámara. Los disparadores remotos son útiles para evitar vibraciones durante las tomas largas."
+        },
+        {
+          "pregunta": "¿Tienes algún consejo para alguien que quiera empezar en la fotografía de naturaleza nocturna?",
+          "respuesta": "Mi consejo es comenzar en noches claras y sin luna para capturar las estrellas y la Vía Láctea. Aprende a usar aplicaciones de seguimiento de estrellas y planificación de la Vía Láctea para planificar tus tomas. La paciencia y la experimentación son claves. No te desanimes si no obtienes la toma perfecta de inmediato, la práctica te llevará a mejorar."
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "tema": "Fotografía de Cocina",
+      "fotografo": "Isabel Torres",
+      "foto": "../images/fotografos/woman-8868545_1280.jpg",
+      "entrevista": [
+        {
+          "pregunta": "Hola, Isabel. La fotografía de cocina combina arte y gastronomía. ¿Qué te motiva a capturar la comida?",
+          "respuesta": "Hola. Me motiva la capacidad de la fotografía para resaltar la belleza y la creatividad en la cocina. Cada plato cuenta una historia y refleja el esfuerzo y la pasión del chef. Capturar esos detalles y transmitir la esencia del plato es un desafío que disfruto mucho."
+        },
+        {
+          "pregunta": "¿Qué técnicas utilizas para lograr buenas fotos de comida?",
+          "respuesta": "La luz natural es mi preferida, ya que realza los colores y las texturas de los alimentos. Utilizo reflectores y difusores para controlar la luz y evitar sombras duras. La composición es crucial; me gusta jugar con ángulos, colores y accesorios para crear una presentación atractiva. La frescura y el detalle son esenciales para que la comida se vea apetitosa."
+        },
+        {
+          "pregunta": "¿Tienes algún consejo para fotógrafos que quieran empezar en la fotografía de cocina?",
+          "respuesta": "Mi consejo es experimentar con diferentes ángulos y estilos. La luz natural cerca de una ventana es un buen punto de partida. Trabaja en equipo con los chefs para entender su visión y resaltar los mejores aspectos del plato. No te olvides de los detalles y asegúrate de que la comida siempre se vea fresca y apetecible."
+        }
+      ]
+    }
+  ],
+  "tutoriales-premium": [
+    {
+      "id": "41",
+      "titulo": "Fotografía de Animales Salvajes",
+      "descripcion": "Técnicas para capturar imágenes de fauna en su hábitat natural.",
+      "nivel": "Avanzado",
+      "categoria": "Naturaleza",
+      "imagen": "../images/tutoriales/tuto41.webp"
+    },
+    {
+      "id": "42",
+      "titulo": "Fotografía en Submarina",
+      "descripcion": "Cómo capturar imágenes bajo el agua con equipos especializados.",
+      "nivel": "Avanzado",
+      "categoria": "Especializada",
+      "imagen": "../images/tutoriales/tuto42.jpg"
+    },
+    {
+      "id": "43",
+      "titulo": "Fotografía de Modas",
+      "descripcion": "Técnicas y estilos para fotografiar modelos y moda.",
+      "nivel": "Intermedio",
+      "categoria": "Retratos",
+      "imagen": "../images/tutoriales/tuto43.webp"
+    },
+    {
+      "id": "44",
+      "titulo": "Fotografía en Estaciones",
+      "descripcion": "Cómo aprovechar las distintas estaciones del año para capturar imágenes únicas.",
+      "nivel": "Principiante",
+      "categoria": "Naturaleza",
+      "imagen": "../images/tutoriales/tuto44.jpg"
+    },
+    {
+      "id": "45",
+      "titulo": "Fotografía de Calles",
+      "descripcion": "Captura la vida urbana con técnicas de fotografía callejera.",
+      "nivel": "Principiante",
+      "categoria": "Documental",
+      "imagen": "../images/tutoriales/tuto45.jpeg"
+    },
+    {
+      "id": "46",
+      "titulo": "Fotografía con Teléfono Móvil",
+      "descripcion": "Cómo maximizar el potencial de tu cámara de teléfono móvil.",
+      "nivel": "Principiante",
+      "categoria": "Fundamentos",
+      "imagen": "../images/tutoriales/tuto46.jpg"
+    },
+    {
+      "id": "47",
+      "titulo": "Fotografía de Autos",
+      "descripcion": "Técnicas para capturar imágenes impresionantes de automóviles.",
+      "nivel": "Intermedio",
+      "categoria": "Especializada",
+      "imagen": "../images/tutoriales/tuto47.webp"
+    },
+    {
+      "id": "48",
+      "titulo": "Fotografía Aérea",
+      "descripcion": "Uso de drones para capturar imágenes aéreas sorprendentes.",
+      "nivel": "Avanzado",
+      "categoria": "Especializada",
+      "imagen": "../images/tutoriales/tuto48.jpg"
+    },
+    {
+      "id": "49",
+      "titulo": "Fotografía de Interiores",
+      "descripcion": "Cómo capturar espacios interiores de manera atractiva.",
+      "nivel": "Intermedio",
+      "categoria": "Arquitectura",
+      "imagen": "../images/tutoriales/tuto49.jpg"
+    },
+    {
+      "id": "50",
+      "titulo": "Fotografía de Bodas",
+      "descripcion": "Consejos y trucos para capturar momentos especiales en bodas.",
+      "nivel": "Avanzado",
+      "categoria": "Eventos",
+      "imagen": "../images/tutoriales/tuto50.jpg"
+    },
+    {
+      "id": "51",
+      "titulo": "Fotografía de Espectáculos",
+      "descripcion": "Cómo fotografiar conciertos y otros eventos en vivo.",
+      "nivel": "Intermedio",
+      "categoria": "Eventos",
+      "imagen": "../images/tutoriales/tuto51.jpg"
+    },
+    {
+      "id": "52",
+      "titulo": "Fotografía de Deportes Extremos",
+      "descripcion": "Captura la adrenalina en deportes extremos.",
+      "nivel": "Avanzado",
+      "categoria": "Acción",
+      "imagen": "../images/tutoriales/tuto52.webp"
+    },
+    {
+      "id": "53",
+      "titulo": "Fotografía de Estrellas",
+      "descripcion": "Cómo capturar la belleza del cielo nocturno y las estrellas.",
+      "nivel": "Avanzado",
+      "categoria": "Especializada",
+      "imagen": "../images/tutoriales/tuto53.jpg"
+    },
+    {
+      "id": "54",
+      "titulo": "Fotografía de Cielos Nocturnos",
+      "descripcion": "Técnicas para capturar imágenes de cielos estrellados y la vía láctea.",
+      "nivel": "Avanzado",
+      "categoria": "Especializada",
+      "imagen": "../images/tutoriales/tuto54.webp"
+    },
+    {
+      "id": "55",
+      "titulo": "Fotografía de Nieve",
+      "descripcion": "Cómo capturar paisajes y escenas invernales.",
+      "nivel": "Intermedio",
+      "categoria": "Naturaleza",
+      "imagen": "../images/tutoriales/tuto55.webp"
+    },
+    {
+      "id": "56",
+      "titulo": "Fotografía de Humo y Vapor",
+      "descripcion": "Técnicas para capturar la belleza del humo y el vapor.",
+      "nivel": "Avanzado",
+      "categoria": "Especializada",
+      "imagen": "../images/tutoriales/tuto56.jpg"
+    },
+    {
+      "id": "57",
+      "titulo": "Fotografía de Festivales",
+      "descripcion": "Captura la energía y el colorido de festivales y celebraciones.",
+      "nivel": "Intermedio",
+      "categoria": "Eventos",
+      "imagen": "../images/tutoriales/tuto57.jpg"
+    },
+    {
+      "id": "58",
+      "titulo": "Fotografía de Reflejos",
+      "descripcion": "Cómo utilizar superficies reflectantes para crear imágenes únicas.",
+      "nivel": "Intermedio",
+      "categoria": "Composición",
+      "imagen": "../images/tutoriales/tuto58.webp"
+    },
+    {
+      "id": "59",
+      "titulo": "Fotografía de Siluetas",
+      "descripcion": "Captura de siluetas dramáticas contra fondos iluminados.",
+      "nivel": "Intermedio",
+      "categoria": "Composición",
+      "imagen": "../images/tutoriales/tuto59.jpg"
+    },
+    {
+      "id": "60",
+      "titulo": "Fotografía de Cristales y Gotas de Agua",
+      "descripcion": "Técnicas para capturar la belleza de los cristales y las gotas de agua.",
+      "nivel": "Avanzado",
+      "categoria": "Especializada",
+      "imagen": "../images/tutoriales/tuto60.jpg"
+    }
+  ],
+  "podcasts": [
+    {
+      "id": "1",
+      "titulo": "Perspectivas Fotográficas",
+      "descripcion": "Explorando el arte y la técnica de la fotografía.",
+      "autor": "Jane Smith",
+      "fechaPublicacion": "2024-08-01",
+      "categoria": "Técnicas",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "La Regla de los Tercios",
+          "descripcion": "Un análisis en profundidad sobre la regla de los tercios en fotografía.",
+          "fechaPublicacion": "2024-08-01",
+          "duracion": "30:00",
+          "urlAudio": "../public/podcasts/nightfall-future-bass-music-228100.mp3"
+        },
+        {
+          "id": "2",
+          "titulo": "Tecnica de Camara Lenta",
+          "descripcion": "Un interesante enfoque sobre el uso de la cámara lenta.",
+          "fechaPublicacion": "2024-08-01",
+          "duracion": "30:00",
+          "urlAudio": "../public/podcasts/nightfall-future-bass-music-228100.mp3"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "titulo": "Amantes de los Lentes",
+      "descripcion": "Un podcast para los apasionados por los lentes de cámara.",
+      "autor": "John Doe",
+      "fechaPublicacion": "2024-07-30",
+      "categoria": "Equipos",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Eligiendo el Lente Correcto",
+          "descripcion": "Consejos y trucos para seleccionar el lente perfecto para tus necesidades.",
+          "fechaPublicacion": "2024-07-30",
+          "duracion": "45:00",
+          "urlAudio": "../public/podcasts/a-long-way-166385.mp3"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "titulo": "Fotografía de Retrato",
+      "descripcion": "Domina el arte de la fotografía de retrato.",
+      "autor": "Emily White",
+      "fechaPublicacion": "2024-07-28",
+      "categoria": "Técnicas",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Iluminación para Retratos",
+          "descripcion": "Cómo usar la iluminación para mejorar tus retratos.",
+          "fechaPublicacion": "2024-07-28",
+          "duracion": "40:00",
+          "urlAudio": "../public/podcasts/better-day-186374.mp3"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "titulo": "Fotografía de Viajes",
+      "descripcion": "Capturando el mundo a través de tu lente.",
+      "autor": "Michael Brown",
+      "fechaPublicacion": "2024-07-25",
+      "categoria": "Viajes",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Mejores Prácticas para Fotografía de Viajes",
+          "descripcion": "Consejos esenciales para fotografiar tus viajes.",
+          "fechaPublicacion": "2024-07-25",
+          "duracion": "50:00",
+          "urlAudio": "../public/podcasts/ethereal-vistas-191254.mp3"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "titulo": "Fotografía de Paisajes",
+      "descripcion": "La belleza de la fotografía de paisajes.",
+      "autor": "Sophia Green",
+      "fechaPublicacion": "2024-07-22",
+      "categoria": "Naturaleza",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Capturando el Atardecer Perfecto",
+          "descripcion": "Técnicas para fotografiar atardeceres impresionantes.",
+          "fechaPublicacion": "2024-07-22",
+          "duracion": "35:00",
+          "urlAudio": "../public/podcasts/for-future-bass-159125.mp3"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "titulo": "Historias de Fotografía Urbana",
+      "descripcion": "Historias capturadas en las calles.",
+      "autor": "David Lee",
+      "fechaPublicacion": "2024-07-20",
+      "categoria": "Urbana",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Momentos en el Tiempo",
+          "descripcion": "Capturando momentos espontáneos en las calles.",
+          "fechaPublicacion": "2024-07-20",
+          "duracion": "60:00",
+          "urlAudio": "../public/podcasts/inside-you-162760.mp3"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "titulo": "Fotografía de Vida Silvestre",
+      "descripcion": "La aventura de capturar la vida silvestre con la cámara.",
+      "autor": "Lisa Black",
+      "fechaPublicacion": "2024-07-18",
+      "categoria": "Naturaleza",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Paciencia en la Fotografía de Vida Silvestre",
+          "descripcion": "Cómo ser paciente y estar preparado para fotografiar vida silvestre.",
+          "fechaPublicacion": "2024-07-18",
+          "duracion": "55:00",
+          "urlAudio": "../public/podcasts/leonell-cassio-the-paranormal-is-real-ft-carrie-163742.mp3"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "titulo": "Fotografía de Moda",
+      "descripcion": "El glamour y la técnica de la fotografía de moda.",
+      "autor": "Anna Scott",
+      "fechaPublicacion": "2024-07-15",
+      "categoria": "Moda",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Elementos Esenciales de la Fotografía de Moda",
+          "descripcion": "Elementos clave a considerar en la fotografía de moda.",
+          "fechaPublicacion": "2024-07-15",
+          "duracion": "48:00",
+          "urlAudio": "../public/podcasts/leva-eternity-149473.mp3"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "titulo": "Fotografía en Blanco y Negro",
+      "descripcion": "Explorando la belleza de las fotos en blanco y negro.",
+      "autor": "Tom Harris",
+      "fechaPublicacion": "2024-07-12",
+      "categoria": "Artística",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "El Arte del Blanco y Negro",
+          "descripcion": "Creando imágenes impresionantes en blanco y negro.",
+          "fechaPublicacion": "2024-07-12",
+          "duracion": "52:00",
+          "urlAudio": "../public/podcasts/lofi-chill-medium-version-159456.mp3"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "titulo": "Técnicas de Edición Fotográfica",
+      "descripcion": "Dominando el arte de la edición fotográfica.",
+      "autor": "Chris Martin",
+      "fechaPublicacion": "2024-07-10",
+      "categoria": "Edición",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Conceptos Básicos de Edición",
+          "descripcion": "Introducción a las técnicas de edición fotográfica.",
+          "fechaPublicacion": "2024-07-10",
+          "duracion": "33:00",
+          "urlAudio": "../public/podcasts/mellow-future-bass-bounce-on-it-184234.mp3"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "titulo": "Fotografía Macro",
+      "descripcion": "Capturando los pequeños detalles en la fotografía macro.",
+      "autor": "Nina Young",
+      "fechaPublicacion": "2024-07-08",
+      "categoria": "Naturaleza",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Maravillas en Primer Plano",
+          "descripcion": "Explorando el mundo de la fotografía macro.",
+          "fechaPublicacion": "2024-07-08",
+          "duracion": "44:00",
+          "urlAudio": "../public/podcasts/midnight-forest-184304.mp3"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "titulo": "Negocios de Fotografía",
+      "descripcion": "Consejos y estrategias para dirigir un negocio de fotografía.",
+      "autor": "Olivia Carter",
+      "fechaPublicacion": "2024-07-05",
+      "categoria": "Negocios",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Iniciando Tu Negocio de Fotografía",
+          "descripcion": "Cómo iniciar y hacer crecer un negocio de fotografía exitoso.",
+          "fechaPublicacion": "2024-07-05",
+          "duracion": "37:00",
+          "urlAudio": "../public/podcasts/nightfall-future-bass-music-228100.mp3"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "titulo": "Fotografía Documental",
+      "descripcion": "Contando historias a través de la fotografía documental.",
+      "autor": "Paul Walker",
+      "fechaPublicacion": "2024-07-03",
+      "categoria": "Documental",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "El Poder del Documental",
+          "descripcion": "Cómo capturar historias impactantes con la fotografía documental.",
+          "fechaPublicacion": "2024-07-03",
+          "duracion": "42:00",
+          "urlAudio": "../public/podcasts/once-in-paris-168895.mp3"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "titulo": "Fotografía de Bodas",
+      "descripcion": "Capturando momentos inolvidables en las bodas.",
+      "autor": "Emma Davis",
+      "fechaPublicacion": "2024-07-01",
+      "categoria": "Eventos",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Momentos Mágicos",
+          "descripcion": "Consejos para capturar los mejores momentos en una boda.",
+          "fechaPublicacion": "2024-07-01",
+          "duracion": "38:00",
+          "urlAudio": "../public/podcasts/sad-soul-chasing-a-feeling-185750.mp3"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "titulo": "Fotografía de Eventos",
+      "descripcion": "Capturando la esencia de los eventos a través de la fotografía.",
+      "autor": "Lucas Brown",
+      "fechaPublicacion": "2024-06-29",
+      "categoria": "Eventos",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Consejos Esenciales para Fotografía de Eventos",
+          "descripcion": "Consejos para capturar momentos memorables en eventos.",
+          "fechaPublicacion": "2024-06-29",
+          "duracion": "39:00",
+          "urlAudio": "../public/podcasts/science-documentary-169621.mp3"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "titulo": "Astrofotografía",
+      "descripcion": "Capturando el cielo nocturno a través de la astrofotografía.",
+      "autor": "David Black",
+      "fechaPublicacion": "2024-06-27",
+      "categoria": "Naturaleza",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Estrellas y Galaxias",
+          "descripcion": "Técnicas para fotografiar el cielo nocturno.",
+          "fechaPublicacion": "2024-06-27",
+          "duracion": "55:00",
+          "urlAudio": "../public/podcasts/seductive-chill-hip-hop-instrumental-hear-me-134134.mp3"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "titulo": "Fotografía Deportiva",
+      "descripcion": "Capturando la acción en la fotografía deportiva.",
+      "autor": "Mark White",
+      "fechaPublicacion": "2024-06-25",
+      "categoria": "Deportes",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Congelando la Acción",
+          "descripcion": "Técnicas para capturar momentos rápidos en los deportes.",
+          "fechaPublicacion": "2024-06-25",
+          "duracion": "47:00",
+          "urlAudio": "../public/podcasts/sexy-chillout-hip-hop-track-come-with-me-133764.mp3"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "titulo": "Fotografía de Alimentos",
+      "descripcion": "Haciendo que la comida luzca deliciosa a través de la fotografía.",
+      "autor": "Laura Brown",
+      "fechaPublicacion": "2024-06-22",
+      "categoria": "Alimentos",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Fotos Sabrosas",
+          "descripcion": "Cómo hacer que la comida luzca irresistible en las fotos.",
+          "fechaPublicacion": "2024-06-22",
+          "duracion": "30:00",
+          "urlAudio": "../public/podcasts/solitude-dark-ambient-electronic-197737.mp3"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "titulo": "Fotografía Arquitectónica",
+      "descripcion": "Capturando la belleza de la arquitectura a través de la fotografía.",
+      "autor": "Henry Green",
+      "fechaPublicacion": "2024-06-20",
+      "categoria": "Arquitectura",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Líneas y Ángulos",
+          "descripcion": "Técnicas para la fotografía arquitectónica.",
+          "fechaPublicacion": "2024-06-20",
+          "duracion": "35:00",
+          "urlAudio": "../public/podcasts/summer-walk-152722.mp3"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "titulo": "Fotografía de Mascotas",
+      "descripcion": "Capturando la esencia de las mascotas a través de la fotografía.",
+      "autor": "Karen White",
+      "fechaPublicacion": "2024-06-18",
+      "categoria": "Animales",
+      "episodios": [
+        {
+          "id": "1",
+          "titulo": "Amigos Peludos",
+          "descripcion": "Consejos para fotografiar mascotas.",
+          "fechaPublicacion": "2024-06-18",
+          "duracion": "40:00",
+          "urlAudio": "../public/podcasts/tvari-tokyo-cafe-159065.mp3"
         }
       ]
     }

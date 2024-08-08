@@ -42,10 +42,19 @@ const styles = {
 export function EntrevistaDetalle() {
   const [datos, setDatos] = useState({ entrevista: [] });
   const {id} = useParams();
+  let url;
 
 console.log(id)
   let api = helpHttp();
-  let url = `http://localhost:4500/entrevistas/${id}`
+
+  if(id < 23){
+    url = `http://localhost:4500/entrevistas/${id}`
+  }else{
+    url = `http://localhost:4500/entrevistas-premium/${id}`
+  }
+
+  console.log(url)
+  
   useEffect(()=>{
     api.get(url).then((res)=>{
       setDatos(res)
@@ -57,10 +66,16 @@ console.log(id)
   return (
     <>
         <nav aria-label="breadcrumb ">
-            <li className="breadcrumb-item mt-4 ms-auto" style={{ marginLeft: "4rem", fontSize:"20px"}}><a href="/entrevistas">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i className="fas fa-reply"></i>
-            &nbsp; Regresar a Entrevistas</a></li>
+            {id < 23 ? <li className="breadcrumb-item mt-4 ms-auto" style={{ marginLeft: "4rem", fontSize:"20px"}}><a href="/entrevistas">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i className="fas fa-reply"></i>
+                        &nbsp; Regresar a Entrevistas</a></li>
+                      :<li className="breadcrumb-item mt-4 ms-auto" style={{ marginLeft: "4rem", fontSize:"20px"}}><a href="/entrevistas-premium">
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <i className="fas fa-reply"></i>
+                      &nbsp; Regresar a Entrevistas</a></li>
+            }
+            
         </nav>
         <div style={styles.container}>
             <h1 style={styles.title}>{datos.tema}</h1>
